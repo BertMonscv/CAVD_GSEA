@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.RDataTmp*
+.Rproj.user/
+.Ruserdata
+*.rds
+geo_cache/
+results/
+output_figures/
+.vscode/
+.idea/
