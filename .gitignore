@@ -7,7 +7,6 @@ Thumbs.db
 .Ruserdata
 *.rds
 geo_cache/
-results/
 output_figures/
 .vscode/
 .idea/
