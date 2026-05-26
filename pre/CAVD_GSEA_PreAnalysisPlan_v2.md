@@ -1,6 +1,6 @@
 # CAVD GSEA Pre-Analysis Plan v2
 
-**Frozen on**: [TO BE FILLED on the day of commit, format YYYY-MM-DD]
+**Frozen on**: 2026-05-26
 **Supersedes**: v1.0 (frozen 2026-05-23, git commit `ed2d35d`, tag `prereg-frozen`). v2 adds four substantive specifications that affect the scientific validity of fgsea output (HGNC symbol normalization, probe collapse rule, `fgseaMultilevel()` with per-call seeding, separated BH pools) and two procedural specifications (commitment of the analysis script at freeze, gene set overlap check before freeze with an explicit Jaccard threshold). It also clarifies the ranking metric. The full list of changes from v1 and the rationale for each is documented in `AMENDMENT_2026-05-26_plan_v1_to_v2.md`.
 
 ## Framing

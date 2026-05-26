@@ -11,3 +11,14 @@ results/
 output_figures/
 .vscode/
 .idea/
+
+# Working scratch directories (not part of freeze)
+csv/
+
+# macOS noise
+.DS_Store
+**/.DS_Store
+
+# Personal scratch (not part of freeze)
+docs/
+gene_sets_candidates.csv

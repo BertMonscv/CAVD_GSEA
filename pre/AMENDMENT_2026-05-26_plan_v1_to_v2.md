@@ -5,7 +5,7 @@
 **Supersedes:** v1.0 of the plan (`preregistration/CAVD_GSEA_PreAnalysisPlan.md`),
 frozen 2026-05-23, git commit `ed2d35d`, tag `prereg-frozen`.
 **Replaces with:** v2 of the plan (`pre/CAVD_GSEA_PreAnalysisPlan_v2.md`),
-frozen 2026-05-26, git commit `[TO BE FILLED after commit]`.
+frozen 2026-05-26, git commit `c76f64489e94180e77741d8cbf0aca9a37134e9c`.
 
 ---
 
@@ -216,9 +216,9 @@ artifacts in Methods §2.4 and the Data Availability statement:
 
 - v1 plan: git commit `ed2d35d` (tag `prereg-frozen`),
   path `preregistration/CAVD_GSEA_PreAnalysisPlan.md`
-- v2 plan: git commit `[TO BE FILLED]`,
+- v2 plan: git commit `c76f64489e94180e77741d8cbf0aca9a37134e9c`,
   path `pre/CAVD_GSEA_PreAnalysisPlan_v2.md`
-- This amendment: git commit `[TO BE FILLED]`,
+- This amendment: git commit `c76f64489e94180e77741d8cbf0aca9a37134e9c`,
   path `pre/AMENDMENT_2026-05-26_plan_v1_to_v2.md`
 
 Suggested Methods §2.4 wording for v19+:
@@ -226,7 +226,7 @@ Suggested Methods §2.4 wording for v19+:
 > "The GSEA analysis was pre-registered. The original plan (v1) was
 > frozen on 2026-05-23 (git commit `ed2d35d`, tag `prereg-frozen`).
 > Prior to any GSEA execution, the plan was amended on 2026-05-26
-> to v2 (git commit `[HASH]`) for the following reasons:
+> to v2 (git commit `c76f64489e94180e77741d8cbf0aca9a37134e9c`) for the following reasons:
 > (i) v1's stated `fgsea(nperm=10000)` parameter combination was not
 > executable as written and was replaced by `fgseaMultilevel()`;
 > (ii) v1 did not specify a probe-to-gene collapse rule;
@@ -236,7 +236,7 @@ Suggested Methods §2.4 wording for v19+:
 > would have diluted hypothesis-driven adjusted P values by mixing
 > them with descriptive Hallmark tests. The full list of changes
 > and their rationales is documented in
-> `AMENDMENT_2026-05-26_plan_v1_to_v2.md` (git commit `[HASH]`).
+> `AMENDMENT_2026-05-26_plan_v1_to_v2.md` (git commit `c76f64489e94180e77741d8cbf0aca9a37134e9c`).
 > No GSEA call was executed against any cohort between the v1 freeze
 > and the v2 amendment."
 
