@@ -1,0 +1,107 @@
+{
+  "validation_date": "2026-10-07",
+  "historical_reference_commit": "0fe1758077ac696ab2ef5908089379aaab85dfab",
+  "frozen_script_commit": "6d6a7cded474f3005828c7ed19d69aace8c7689b",
+  "archived_run_commit": "18f0f7f43289a0751ed17e0d6bcbcb495c0f04c6",
+  "execution": {
+    "gsea": "completed successfully; final wrapper was executed",
+    "baseline": "completed successfully using preserved baseline source with path-only overrides",
+    "input_origin": "fresh NCBI HTTPS downloads, decompressed and matched to original analysis input hashes",
+    "bootstrap_enabled": false,
+    "new_empty_library_restore_tested": false,
+    "environment": "existing R 4.5.2 installation, Bioconductor 3.22, recorded package versions",
+    "renv_lock_package_count": 150
+  },
+  "gsea_comparison": {
+    "archived_rows": 68,
+    "reproduced_rows": 68,
+    "compared_fields": [
+      "pathway",
+      "cohort",
+      "cohort_short",
+      "bh_pool",
+      "N_input",
+      "N_mapped",
+      "NES",
+      "pval",
+      "padj",
+      "padj_within_pool",
+      "leading_edge",
+      "leading_edge_size",
+      "ranking_metric"
+    ],
+    "excluded_deprecated_fields": [
+      "NES_SD",
+      "NES_lower_95CI",
+      "NES_upper_95CI"
+    ],
+    "comparison": "exact string equality in each retained field and row",
+    "mismatches": [],
+    "all_884_values_identical": true,
+    "no_CI_export_identical_to_retained_archived_fields": true,
+    "archived_result_sha256": "66928c006d8369bc7cefe495c9c1d771c1bf72cc4f729f0dcc95984bb70c7a62",
+    "reproduced_full_schema_sha256": "096a4246dbc4dce086ea465e05ec06ce16415c138541e4618e31fa9cc945cfe6",
+    "reproduced_no_CI_sha256": "10252548bda1898755b8c995e8289fa0bf4d8c8f0e13cff43d9aebe2753e4259",
+    "additional_outputs": [
+      {
+        "file": "coverage_check_v2.tsv",
+        "archived_sha256": "c378a399d41218fd76e28b355f07b3f918e0de1fd70b981c32322db0b549c0cf",
+        "reproduced_sha256": "c378a399d41218fd76e28b355f07b3f918e0de1fd70b981c32322db0b549c0cf",
+        "byte_identical": true
+      },
+      {
+        "file": "cross_cohort_consistency_v2.tsv",
+        "archived_sha256": "d7eb1c016d9812a6fc47192b32c134dc38c6cc82ba6bf6401f44f739181f7cb8",
+        "reproduced_sha256": "d7eb1c016d9812a6fc47192b32c134dc38c6cc82ba6bf6401f44f739181f7cb8",
+        "byte_identical": true
+      }
+    ]
+  },
+  "baseline_comparison": {
+    "historical_panels_generated": 9,
+    "historical_panels_text_and_render_identical": 8,
+    "separate_ComBat_diagnostic_text_and_render_identical": true,
+    "comparison_resolution_dpi": 72,
+    "mismatch": "Historical Figure1I_KEGG.pdf, now Supplementary Figure S10h",
+    "observed_difference": "Pathway names/order changed, including archived Phagosome versus rerun Phagocytosis. The frozen script queries the live KEGG service and no historical KEGG annotation snapshot is archived.",
+    "disposition": "The manuscript uses the historical KEGG PDF. The dated recomputation is not substituted for it. Targeted and Hallmark GSEA use the pinned msigdbr collection and are unchanged.",
+    "details_file": "baseline_pdf_comparison_2026-10-07.json"
+  },
+  "baseline_numeric_checks": {
+    "discovery_DEGs": 884,
+    "discovery_up": 542,
+    "discovery_down": 342,
+    "validation_DEGs": 117,
+    "individual_PC1_percent": [
+      47.3,
+      97.4,
+      27.7
+    ],
+    "GO_chemotaxis_adjusted_P": 9.430769e-32
+  },
+  "source_integrity": {
+    "all_tracked_pre_and_historical_results_files_unchanged_from_reference": true,
+    "changed_files": [],
+    "source_hash_manifest": "../../environment/frozen_sources.tsv"
+  },
+  "safety_checks": {
+    "fetch_verify_only_passed": true,
+    "missing_GEO_inputs_rejected": true,
+    "nonempty_analysis_output_directory_rejected": true,
+    "Python_fetch_script_syntax_validated": true,
+    "R_restore_script_syntax_validated": true,
+    "R_restore_executed_in_empty_library": false
+  },
+  "public_records": {
+    "data_download_receipt": "geo_download_verification_2026-10-07.json",
+    "gsea_log": "gsea_run_2026-10-07.log",
+    "baseline_log": "baseline_run_2026-10-07.log",
+    "session_info": "../../environment/validation_sessionInfo.txt"
+  },
+  "script_hashes": {
+    "scripts/fetch_geo_inputs.py": "b1a5cb3d34d139306837ec15cb6d83829631fdaa1e5d5d7b52df9f983c711f44",
+    "scripts/run_analysis.R": "f4442d932a20dbfd55ba938b0d1bf7d0ffb2867f13a97420cba411e24d550efd",
+    "environment/restore.R": "df978b4dea265bd719546b46620d9cff88b0aae8d7bb1572d1b40dfeda2b123e",
+    "environment/renv.lock": "ef52aa54ada03b853dbf25ac157014bcb98a7e2ea57168f2219eef84f5a81c0d"
+  }
+}

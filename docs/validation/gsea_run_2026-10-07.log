@@ -1,0 +1,162 @@
+
+
+[stage 1] sessionInfo written to <OUTPUT_DIR>/gsea/sessionInfo.txt
+[stage 1] RUN_BOOTSTRAP = FALSE
+
+[stage 2a] loading GSE51472...
+  excluded (Sclerotic): GSM1246209, GSM1246210, GSM1246211, GSM1246212, GSM1246213
+  [GSE51472] quantiles 0/50/99/100%: 4.59 / 77.64 / 4035.78 / 24360.80
+  [GSE51472] LINEAR scale detected --> log2(x + 1) applied
+
+[stage 2b] loading GSE12644...
+  [GSE12644] quantiles 0/50/99/100%: 1.86 / 4.79 / 11.97 / 15.28
+  [GSE12644] already log2 scale, no transform
+
+[stage 2c] loading GSE83453...
+  excluded (BAV): 10 samples (GSM2203485 ..., GSM2203486 ..., GSM2203487 ...)
+  [GSE83453] quantiles 0/50/99/100%: 6.51 / 7.11 / 12.78 / 14.86
+  [GSE83453] already log2 scale, no transform
+
+[stage 3] probe -> gene collapse
+'select()' returned 1:many mapping between keys and columns
+  [GSE51472] probes in input: 54675
+  [GSE51472] probes with unique SYMBOL annotation: 43120
+  [GSE51472] probes dropped (multi-SYMBOL):         1527
+  [GSE51472] unique gene symbols after IQR collapse: 20823
+  [GSE12644] probes in input: 54675
+  [GSE12644] probes with unique SYMBOL annotation: 43120
+  [GSE12644] probes dropped (multi-SYMBOL):         1527
+  [GSE12644] unique gene symbols after IQR collapse: 20823
+'select()' returned 1:many mapping between keys and columns
+  [GSE83453] probes in input: 47323
+  [GSE83453] probes with unique SYMBOL annotation: 33983
+  [GSE83453] probes dropped (multi-SYMBOL):         1705
+  [GSE83453] unique gene symbols after IQR collapse: 20914
+
+[stage 4 - GSE51472] limma DE...
+  [GSE51472] 20823 genes, logFC range [-3.039, 6.865], median 0.021
+  [GSE51472] ranked vector head: JCHAIN = 6.865, tail: COL6A6 = -3.039
+
+[stage 4b] integrating GSE51472 + GSE12644 with ComBat...
+  common genes: 20823
+  combined matrix: 20823 genes x 30 samples (Normal=15, Calcified=15)
+Found2batches
+Adjusting for1covariate(s) or covariate level(s)
+Standardizing Data across genes
+Fitting L/S model and finding priors
+Finding parametric adjustments
+Adjusting the Data
+
+  ComBat applied (preserving group as biological variable)
+  PCA check saved: <OUTPUT_DIR>/gsea/combat_pca_check.pdf
+
+[stage 4 - INTEGRATED] limma DE...
+  [INTEGRATED] 20823 genes, logFC range [-2.671, 4.741], median 0.022
+  [INTEGRATED] ranked vector head: MMP12 = 4.741, tail: COL6A6 = -2.671
+
+[stage 4 - GSE83453] limma DE...
+  [GSE83453] 20914 genes, logFC range [-2.527, 4.183], median 0.001
+  [GSE83453] ranked vector head: IGLL1 = 4.183, tail: PDK4 = -2.527
+
+[stage 5] loading gene sets, coverage check, fgsea...
+  Hallmark MTORC1 SHA256 anchor: OK
+
+  coverage check (hypothesis pool + supplementary, all 3 cohorts):
+        cohort             pool                              gene_set N_input
+1     GSE51472 hypothesis_5pool             HALLMARK_MTORC1_SIGNALING     200
+2     GSE51472 hypothesis_5pool          CUSTOM_LEPTIN_MTOR_SIGNALING      22
+3     GSE51472 hypothesis_5pool  CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS      20
+4     GSE51472 hypothesis_5pool                 CUSTOM_LIPOPHAGY_CORE      22
+5     GSE51472 hypothesis_5pool CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION      27
+6     GSE51472    supplementary      CUSTOM_S100A9_RAGE_CALCIFICATION      17
+57  INTEGRATED hypothesis_5pool             HALLMARK_MTORC1_SIGNALING     200
+58  INTEGRATED hypothesis_5pool          CUSTOM_LEPTIN_MTOR_SIGNALING      22
+59  INTEGRATED hypothesis_5pool  CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS      20
+60  INTEGRATED hypothesis_5pool                 CUSTOM_LIPOPHAGY_CORE      22
+61  INTEGRATED hypothesis_5pool CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION      27
+62  INTEGRATED    supplementary      CUSTOM_S100A9_RAGE_CALCIFICATION      17
+113   GSE83453 hypothesis_5pool             HALLMARK_MTORC1_SIGNALING     200
+114   GSE83453 hypothesis_5pool          CUSTOM_LEPTIN_MTOR_SIGNALING      22
+115   GSE83453 hypothesis_5pool  CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS      20
+116   GSE83453 hypothesis_5pool                 CUSTOM_LIPOPHAGY_CORE      22
+117   GSE83453 hypothesis_5pool CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION      27
+118   GSE83453    supplementary      CUSTOM_S100A9_RAGE_CALCIFICATION      17
+    N_mapped coverage_decision
+1        198           proceed
+2         22           proceed
+3         20           proceed
+4         22           proceed
+5         25           proceed
+6         17           proceed
+57       198           proceed
+58        22           proceed
+59        20           proceed
+60        22           proceed
+61        25           proceed
+62        17           proceed
+113      198           proceed
+114       22           proceed
+115       20           proceed
+116       22           proceed
+117       25           proceed
+118       17           proceed
+  coverage table written: <OUTPUT_DIR>/gsea/coverage_check_v2.tsv
+
+  fgsea call [GSE51472_hypothesis_5pool] (n_pathways = 5)...
+    pathways tested: 5
+
+  fgsea call [GSE51472_supplementary] (n_pathways = 1)...
+    pathways tested: 1
+
+  fgsea call [GSE51472_hallmark_50pool] (n_pathways = 50)...
+    pathways tested: 50
+
+  fgsea call [INTEGRATED_hypothesis_5pool] (n_pathways = 5)...
+    pathways tested: 5
+
+  fgsea call [INTEGRATED_supplementary] (n_pathways = 1)...
+    pathways tested: 1
+
+  fgsea call [GSE83453_hypothesis_5pool] (n_pathways = 5)...
+    pathways tested: 5
+
+  fgsea call [GSE83453_supplementary] (n_pathways = 1)...
+    pathways tested: 1
+
+[stage 6] writing outputs...
+  bootstrap SKIPPED (RUN_BOOTSTRAP = FALSE); NES_SD = NA
+  Supp_Table_S2 written: <OUTPUT_DIR>/gsea/Supp_Table_S2_v2.tsv (68 rows)
+  forestplot_data written: <OUTPUT_DIR>/gsea/forestplot_data.tsv (15 rows)
+
+[stage 7] cross-cohort consistency classification (plan §8)...
+  consistency table written: <OUTPUT_DIR>/gsea/cross_cohort_consistency_v2.tsv
+
+[stage 1-7 OK] all 3 cohorts complete.
+
+=== Cross-cohort hypothesis-driven pool results ===
+                                pathway NES_GSE51472 NES_INTEGRATED
+1             HALLMARK_MTORC1_SIGNALING    1.8119538      1.8983107
+2          CUSTOM_LEPTIN_MTOR_SIGNALING   -1.0656419     -1.2615623
+3  CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS    0.5217221      0.7753178
+4                 CUSTOM_LIPOPHAGY_CORE   -0.8246382     -0.9537936
+5 CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION    1.6475968      1.7169860
+  NES_GSE83453 padj_GSE51472 padj_INTEGRATED padj_GSE83453
+1   -1.4087613  6.414446e-05    2.650302e-06   0.006601761
+2   -1.4047667  6.012024e-01    2.928349e-01   0.125786164
+3    0.8410465  9.900794e-01    7.798742e-01   0.687619048
+4   -1.8026635  9.193387e-01    6.378505e-01   0.006601761
+5    1.8715446  3.806746e-02    2.190453e-02   0.006601761
+           classification
+1            Inconsistent
+2 Directional consistency
+3 Directional consistency
+4 Directional consistency
+5      Strong consistency
+
+=== Supplementary set (CUSTOM_S100A9_RAGE_CALCIFICATION) ===
+   cohort_short      NES         pval padj_within_pool N_mapped
+6      GSE51472 2.151135 1.493236e-06     1.493236e-06       17
+62   INTEGRATED 2.244251 1.923749e-07     1.923749e-07       17
+68     GSE83453 1.729021 9.920015e-03     9.920015e-03       17
+
+SUCCESS: gsea outputs: <OUTPUT_DIR>/gsea

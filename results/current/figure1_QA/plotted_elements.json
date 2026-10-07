@@ -1,0 +1,501 @@
+{
+  "NES_points": [
+    {
+      "pathway": "HALLMARK_MTORC1_SIGNALING",
+      "cohort": "GSE51472",
+      "NES": 1.81195381474006,
+      "BH_adjusted_P": 6.41444648669037e-05,
+      "P_display": "6.41 \u00d7 10\u207b\u2075",
+      "display_xy_mm": [
+        106.31647207122468,
+        59.5
+      ],
+      "filled": true,
+      "symbol": "circle",
+      "color": "#367994",
+      "consistency": "Inconsistent"
+    },
+    {
+      "pathway": "HALLMARK_MTORC1_SIGNALING",
+      "cohort": "INTEGRATED",
+      "NES": 1.89831072491456,
+      "BH_adjusted_P": 2.65030225137504e-06,
+      "P_display": "2.65 \u00d7 10\u207b\u2076",
+      "display_xy_mm": [
+        107.57070338566385,
+        63.0
+      ],
+      "filled": true,
+      "symbol": "square",
+      "color": "#AE7159",
+      "consistency": "Inconsistent"
+    },
+    {
+      "pathway": "HALLMARK_MTORC1_SIGNALING",
+      "cohort": "GSE83453",
+      "NES": -1.40876127114082,
+      "BH_adjusted_P": 0.00660176091538821,
+      "P_display": "0.00660",
+      "display_xy_mm": [
+        59.53941963343095,
+        66.5
+      ],
+      "filled": true,
+      "symbol": "triangle",
+      "color": "#577E6A",
+      "consistency": "Inconsistent"
+    },
+    {
+      "pathway": "CUSTOM_LEPTIN_MTOR_SIGNALING",
+      "cohort": "GSE51472",
+      "NES": -1.06564194035318,
+      "BH_adjusted_P": 0.601202404809619,
+      "P_display": "0.601",
+      "display_xy_mm": [
+        64.52281943772762,
+        71.5
+      ],
+      "filled": false,
+      "symbol": "circle",
+      "color": "#367994",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_LEPTIN_MTOR_SIGNALING",
+      "cohort": "INTEGRATED",
+      "NES": -1.26156225215306,
+      "BH_adjusted_P": 0.292834890965732,
+      "P_display": "0.293",
+      "display_xy_mm": [
+        61.677310147300794,
+        75.0
+      ],
+      "filled": false,
+      "symbol": "square",
+      "color": "#AE7159",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_LEPTIN_MTOR_SIGNALING",
+      "cohort": "GSE83453",
+      "NES": -1.40476672811419,
+      "BH_adjusted_P": 0.125786163522013,
+      "P_display": "0.126",
+      "display_xy_mm": [
+        59.597435615484386,
+        78.5
+      ],
+      "filled": false,
+      "symbol": "triangle",
+      "color": "#577E6A",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS",
+      "cohort": "GSE51472",
+      "NES": 0.521722126951272,
+      "BH_adjusted_P": 0.990079365079365,
+      "P_display": "0.990",
+      "display_xy_mm": [
+        87.57739279619705,
+        83.5
+      ],
+      "filled": false,
+      "symbol": "circle",
+      "color": "#367994",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS",
+      "cohort": "INTEGRATED",
+      "NES": 0.775317787323129,
+      "BH_adjusted_P": 0.779874213836478,
+      "P_display": "0.780",
+      "display_xy_mm": [
+        91.26056786350259,
+        87.0
+      ],
+      "filled": false,
+      "symbol": "square",
+      "color": "#AE7159",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_MTOR_AUTOPHAGY_LIPOPHAGY_AXIS",
+      "cohort": "GSE83453",
+      "NES": 0.841046519899751,
+      "BH_adjusted_P": 0.687619047619048,
+      "P_display": "0.688",
+      "display_xy_mm": [
+        92.21519945568686,
+        90.5
+      ],
+      "filled": false,
+      "symbol": "triangle",
+      "color": "#577E6A",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_LIPOPHAGY_CORE",
+      "cohort": "GSE51472",
+      "NES": -0.824638213432052,
+      "BH_adjusted_P": 0.919338677354709,
+      "P_display": "0.919",
+      "display_xy_mm": [
+        68.02311166205828,
+        95.5
+      ],
+      "filled": false,
+      "symbol": "circle",
+      "color": "#367994",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_LIPOPHAGY_CORE",
+      "cohort": "INTEGRATED",
+      "NES": -0.953793629654737,
+      "BH_adjusted_P": 0.63785046728972,
+      "P_display": "0.638",
+      "display_xy_mm": [
+        66.14728299787168,
+        99.0
+      ],
+      "filled": false,
+      "symbol": "square",
+      "color": "#AE7159",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_LIPOPHAGY_CORE",
+      "cohort": "GSE83453",
+      "NES": -1.80266345409629,
+      "BH_adjusted_P": 0.00660176091538821,
+      "P_display": "0.00660",
+      "display_xy_mm": [
+        53.818459357172934,
+        102.5
+      ],
+      "filled": true,
+      "symbol": "triangle",
+      "color": "#577E6A",
+      "consistency": "Directional"
+    },
+    {
+      "pathway": "CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION",
+      "cohort": "GSE51472",
+      "NES": 1.6475967580956,
+      "BH_adjusted_P": 0.038067457304434,
+      "P_display": "0.0381",
+      "display_xy_mm": [
+        103.92938148662657,
+        107.5
+      ],
+      "filled": true,
+      "symbol": "circle",
+      "color": "#367994",
+      "consistency": "Strong"
+    },
+    {
+      "pathway": "CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION",
+      "cohort": "INTEGRATED",
+      "NES": 1.71698599979818,
+      "BH_adjusted_P": 0.0219045274306555,
+      "P_display": "0.0219",
+      "display_xy_mm": [
+        104.93717761611643,
+        111.0
+      ],
+      "filled": true,
+      "symbol": "square",
+      "color": "#AE7159",
+      "consistency": "Strong"
+    },
+    {
+      "pathway": "CUSTOM_VIC_OSTEOGENIC_DIFFERENTIATION",
+      "cohort": "GSE83453",
+      "NES": 1.87154463799352,
+      "BH_adjusted_P": 0.00660176091538821,
+      "P_display": "0.00660",
+      "display_xy_mm": [
+        107.18195783752492,
+        114.5
+      ],
+      "filled": true,
+      "symbol": "triangle",
+      "color": "#577E6A",
+      "consistency": "Strong"
+    }
+  ],
+  "membership_cells": [
+    {
+      "gene": "RUNX2",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        48.75,
+        151.2
+      ]
+    },
+    {
+      "gene": "SPP1",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        61.25,
+        151.2
+      ]
+    },
+    {
+      "gene": "IBSP",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        73.75,
+        151.2
+      ]
+    },
+    {
+      "gene": "ENPP1",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        86.25,
+        151.2
+      ]
+    },
+    {
+      "gene": "DLX5",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        98.75,
+        151.2
+      ]
+    },
+    {
+      "gene": "SLC20A1",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        111.25,
+        151.2
+      ]
+    },
+    {
+      "gene": "WNT5A",
+      "cohort": "GSE51472",
+      "member": true,
+      "display_xy_mm": [
+        123.75,
+        151.2
+      ]
+    },
+    {
+      "gene": "COL1A1",
+      "cohort": "GSE51472",
+      "member": false,
+      "display_xy_mm": [
+        136.25,
+        151.2
+      ]
+    },
+    {
+      "gene": "COL1A2",
+      "cohort": "GSE51472",
+      "member": false,
+      "display_xy_mm": [
+        148.75,
+        151.2
+      ]
+    },
+    {
+      "gene": "ALPL",
+      "cohort": "GSE51472",
+      "member": false,
+      "display_xy_mm": [
+        161.25,
+        151.2
+      ]
+    },
+    {
+      "gene": "RUNX2",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        48.75,
+        157.2
+      ]
+    },
+    {
+      "gene": "SPP1",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        61.25,
+        157.2
+      ]
+    },
+    {
+      "gene": "IBSP",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        73.75,
+        157.2
+      ]
+    },
+    {
+      "gene": "ENPP1",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        86.25,
+        157.2
+      ]
+    },
+    {
+      "gene": "DLX5",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        98.75,
+        157.2
+      ]
+    },
+    {
+      "gene": "SLC20A1",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        111.25,
+        157.2
+      ]
+    },
+    {
+      "gene": "WNT5A",
+      "cohort": "INTEGRATED",
+      "member": false,
+      "display_xy_mm": [
+        123.75,
+        157.2
+      ]
+    },
+    {
+      "gene": "COL1A1",
+      "cohort": "INTEGRATED",
+      "member": true,
+      "display_xy_mm": [
+        136.25,
+        157.2
+      ]
+    },
+    {
+      "gene": "COL1A2",
+      "cohort": "INTEGRATED",
+      "member": false,
+      "display_xy_mm": [
+        148.75,
+        157.2
+      ]
+    },
+    {
+      "gene": "ALPL",
+      "cohort": "INTEGRATED",
+      "member": false,
+      "display_xy_mm": [
+        161.25,
+        157.2
+      ]
+    },
+    {
+      "gene": "RUNX2",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        48.75,
+        163.2
+      ]
+    },
+    {
+      "gene": "SPP1",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        61.25,
+        163.2
+      ]
+    },
+    {
+      "gene": "IBSP",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        73.75,
+        163.2
+      ]
+    },
+    {
+      "gene": "ENPP1",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        86.25,
+        163.2
+      ]
+    },
+    {
+      "gene": "DLX5",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        98.75,
+        163.2
+      ]
+    },
+    {
+      "gene": "SLC20A1",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        111.25,
+        163.2
+      ]
+    },
+    {
+      "gene": "WNT5A",
+      "cohort": "GSE83453",
+      "member": false,
+      "display_xy_mm": [
+        123.75,
+        163.2
+      ]
+    },
+    {
+      "gene": "COL1A1",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        136.25,
+        163.2
+      ]
+    },
+    {
+      "gene": "COL1A2",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        148.75,
+        163.2
+      ]
+    },
+    {
+      "gene": "ALPL",
+      "cohort": "GSE83453",
+      "member": true,
+      "display_xy_mm": [
+        161.25,
+        163.2
+      ]
+    }
+  ]
+}

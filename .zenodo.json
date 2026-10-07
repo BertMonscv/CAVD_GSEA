@@ -1,0 +1,39 @@
+{
+  "title": "CAVD_GSEA: transcriptomic and gene-set enrichment analyses of calcific aortic valve disease",
+  "description": "<p>Reproducible transcriptomic analyses supporting the study of leptin, mTORC1 activation, autophagy and osteogenic differentiation in calcific aortic valve disease. The archive contains frozen plans and implementation, curated gene sets, 68 GSEA results, current manuscript Figure 1 and transcriptomic supplementary figures, public GEO input retrieval, environment specifications and actual reproduction records.</p><p>The 7 October 2026 validation reproduced all 68 GSEA rows and 13 retained fields. Historical NES uncertainty intervals are excluded from current reporting; the original files and dated correction note preserve the analysis history. The historical KEGG figure uses an online annotation source and is retained with a documented version-dependence note.</p><p>Code is licensed under MIT. Author-created data, figures and scientific documentation are licensed under CC BY 4.0. Third-party resources retain their original terms. This archive covers transcriptomic analysis; wet-laboratory and microscopy source-data packages are separate.</p>",
+  "creators": [
+    {
+      "name": "Li, Zongyue",
+      "affiliation": "First Affiliated Hospital with Nanjing Medical University",
+      "orcid": "0009-0007-1907-3655"
+    },
+    {
+      "name": "Wu, Yanhu",
+      "affiliation": "First Affiliated Hospital with Nanjing Medical University",
+      "orcid": "0000-0002-7941-8623"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-10-07",
+  "keywords": [
+    "calcific aortic valve disease",
+    "leptin",
+    "mTORC1",
+    "autophagy",
+    "GSEA",
+    "GEO",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BertMonscv/CAVD_GSEA",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Software license: MIT. Author-created data, figures and scientific documentation: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite this versioned archive. The associated GitHub repository retains the original analysis commits and a dated reporting correction."
+}

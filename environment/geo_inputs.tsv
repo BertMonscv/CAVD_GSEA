@@ -1,0 +1,4 @@
+accession	filename	bytes	sha256	url
+GSE51472	GSE51472_series_matrix.txt	7195403	f4eff9d1a881eb1464327b36e6ae411e5d03888825933297f106e9852919c2b0	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51472/matrix/GSE51472_series_matrix.txt.gz
+GSE12644	GSE12644_series_matrix.txt	12091177	9dc83ddd5de90f9ffe5299e96f40fab03f54e994ff45de7b504a2105f3067993	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE12nnn/GSE12644/matrix/GSE12644_series_matrix.txt.gz
+GSE83453	GSE83453_series_matrix.txt	15933353	4c26c28b8ac0857af3cf99bfdc9fb7b4b75a8d0edc86d41119f594e6d8032706	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE83nnn/GSE83453/matrix/GSE83453_series_matrix.txt.gz

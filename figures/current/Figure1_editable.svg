@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170.0mm" height="178.0mm" viewBox="0 0 481.8897637795276 504.5669291338583">
+<rect width="100%" height="100%" fill="white"/>
+<text x="4.535433070866143" y="15.023622047244096" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#252A2E">a</text>
+<text x="25.51181102362205" y="15.023622047244096" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="8.2" font-weight="bold" font-style="normal" fill="#252A2E">Human valve transcriptomes</text>
+<rect x="5.669291338582678" y="25.51181102362205" width="136.06299212598427" height="76.53543307086615" fill="#F0F6F8" stroke="#CBD2D6" stroke-width="0.45"/>
+<line x1="5.669291338582678" y1="25.51181102362205" x2="141.73228346456693" y2="25.51181102362205" stroke="#367994" stroke-width="1.2"/>
+<text x="73.70078740157481" y="39.968503937007874" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.7" font-weight="bold" font-style="normal" fill="#367994">Discovery</text>
+<text x="73.70078740157481" y="53.85826771653544" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">GSE51472</text>
+<text x="73.70078740157481" y="68.03149606299213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">5 normal | 5 calcified</text>
+<text x="73.70078740157481" y="81.35433070866142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">Affymetrix U133 Plus 2</text>
+<text x="73.70078740157481" y="94.39370078740157" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">5 sclerotic excluded</text>
+<rect x="167.244094488189" y="25.51181102362205" width="178.58267716535434" height="76.53543307086615" fill="#FAF2EE" stroke="#CBD2D6" stroke-width="0.45"/>
+<line x1="167.244094488189" y1="25.51181102362205" x2="345.82677165354335" y2="25.51181102362205" stroke="#AE7159" stroke-width="1.2"/>
+<text x="256.5354330708662" y="39.968503937007874" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.7" font-weight="bold" font-style="normal" fill="#AE7159">Integrated sensitivity</text>
+<text x="256.5354330708662" y="53.85826771653544" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">GSE51472 + GSE12644</text>
+<text x="256.5354330708662" y="68.03149606299213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">15 normal | 15 calcified</text>
+<text x="256.5354330708662" y="81.35433070866142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">Affymetrix; ComBat-adjusted</text>
+<text x="256.5354330708662" y="94.39370078740157" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">Includes discovery samples</text>
+<rect x="360.00000000000006" y="25.51181102362205" width="116.22047244094489" height="76.53543307086615" fill="#F1F6F3" stroke="#CBD2D6" stroke-width="0.45"/>
+<line x1="360.00000000000006" y1="25.51181102362205" x2="476.22047244094495" y2="25.51181102362205" stroke="#577E6A" stroke-width="1.2"/>
+<text x="418.1102362204725" y="39.968503937007874" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.7" font-weight="bold" font-style="normal" fill="#577E6A">Validation</text>
+<text x="418.1102362204725" y="53.85826771653544" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">GSE83453</text>
+<text x="418.1102362204725" y="68.03149606299213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">8 normal | 9 calcified</text>
+<text x="418.1102362204725" y="81.35433070866142" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">Illumina HumanHT-12 v4</text>
+<text x="418.1102362204725" y="94.39370078740157" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">Tricuspid valves</text>
+<line x1="143.14960629921262" y1="59.24409448818898" x2="164.40944881889766" y2="59.24409448818898" stroke="#64717A" stroke-width="0.65"/>
+<line x1="164.40944881889766" y1="59.24409448818898" x2="160.44094488188978" y2="56.69291338582678" stroke="#64717A" stroke-width="0.65"/>
+<line x1="164.40944881889766" y1="59.24409448818898" x2="160.44094488188978" y2="61.79527559055119" stroke="#64717A" stroke-width="0.65"/>
+<text x="4.535433070866143" y="121.88976377952757" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#252A2E">b</text>
+<text x="25.51181102362205" y="121.88976377952757" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="8.2" font-weight="bold" font-style="normal" fill="#252A2E">Prespecified gene-set enrichment</text>
+<circle cx="150.23622047244095" cy="135.49606299212599" r="2.2677165354330713" fill="#367994" stroke="#367994" stroke-width=".7"/>
+<text x="156.18897637795277" y="137.90551181102364" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Discovery</text>
+<rect x="247.18110236220477" y="133.22834645669292" width="4.535433070866143" height="4.535433070866143" fill="#AE7159" stroke="#AE7159" stroke-width="0.7"/>
+<text x="255.40157480314963" y="137.90551181102364" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Integrated sensitivity</text>
+<polygon points="405.35433070866145,132.86551181102362 402.9959055118111,137.5823622047244 407.7127559055118,137.5823622047244" fill="#577E6A" stroke="#577E6A" stroke-width=".7"/>
+<text x="411.3070866141733" y="137.90551181102364" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Validation</text>
+<text x="5.669291338582678" y="155.90551181102364" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">Gene set</text>
+<text x="361.984251968504" y="155.90551181102364" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">BH-adjusted P</text>
+<text x="439.3700787401575" y="155.90551181102364" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">Consistency</text>
+<rect x="5.669291338582678" y="161.5748031496063" width="470.55118110236225" height="34.01574803149607" fill="#F5F7F8" stroke="#F5F7F8" stroke-width="0.35"/>
+<rect x="5.669291338582678" y="229.60629921259846" width="470.55118110236225" height="34.01574803149607" fill="#F5F7F8" stroke="#F5F7F8" stroke-width="0.35"/>
+<rect x="5.669291338582678" y="297.6377952755906" width="470.55118110236225" height="34.01574803149607" fill="#F5F7F8" stroke="#F5F7F8" stroke-width="0.35"/>
+<line x1="144.43194600674917" y1="162.992125984252" x2="144.43194600674917" y2="331.65354330708664" stroke="#DFE4E7" stroke-width="0.35"/>
+<line x1="185.60179977502816" y1="162.992125984252" x2="185.60179977502816" y2="331.65354330708664" stroke="#DFE4E7" stroke-width="0.35"/>
+<line x1="226.7716535433071" y1="162.992125984252" x2="226.7716535433071" y2="331.65354330708664" stroke="#9DA8AF" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="267.94150731158607" y1="162.992125984252" x2="267.94150731158607" y2="331.65354330708664" stroke="#DFE4E7" stroke-width="0.35"/>
+<line x1="309.111361079865" y1="162.992125984252" x2="309.111361079865" y2="331.65354330708664" stroke="#DFE4E7" stroke-width="0.35"/>
+<text x="7.653543307086616" y="180.992125984252" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="normal" font-style="normal" fill="#252A2E">Hallmark mTORC1 signaling</text>
+<text x="439.3700787401575" y="180.992125984252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Inconsistent</text>
+<circle cx="301.3695271310306" cy="168.66141732283467" r="2.834645669291339" fill="#367994" stroke="#367994" stroke-width=".7"/>
+<text x="344.326048843504" y="171.12755905511813" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">6.41 × 10</text>
+<text x="373.713744156004" y="168.15118110236222" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="5.2" font-weight="bold" font-style="normal" fill="#252A2E">−5</text>
+<rect x="302.09018282550386" y="175.74803149606302" width="5.669291338582678" height="5.669291338582678" fill="#AE7159" stroke="#AE7159" stroke-width="0.7"/>
+<text x="344.326048843504" y="181.0488188976378" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">2.65 × 10</text>
+<text x="373.713744156004" y="178.07244094488192" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="5.2" font-weight="bold" font-style="normal" fill="#252A2E">−6</text>
+<polygon points="168.77315801602475,185.2157480314961 165.82512651996177,191.11181102362207 171.72118951208776,191.11181102362207" fill="#577E6A" stroke="#577E6A" stroke-width=".7"/>
+<text x="361.984251968504" y="190.9700787401575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">0.00660</text>
+<text x="7.653543307086616" y="215.00787401574803" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="normal" font-style="normal" fill="#252A2E">Leptin–mTOR signaling</text>
+<text x="439.3700787401575" y="215.00787401574803" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Directional</text>
+<circle cx="182.89933068962162" cy="202.67716535433073" r="2.834645669291339" fill="#FFFFFF" stroke="#367994" stroke-width=".7"/>
+<text x="361.984251968504" y="205.14330708661421" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.601</text>
+<rect x="171.99867443329362" y="209.76377952755908" width="5.669291338582678" height="5.669291338582678" fill="#FFFFFF" stroke="#AE7159" stroke-width="0.7"/>
+<text x="361.984251968504" y="215.0645669291339" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.293</text>
+<polygon points="168.93761276830222,219.23149606299216 165.98958127223923,225.12755905511813 171.8856442643652,225.12755905511813" fill="#FFFFFF" stroke="#577E6A" stroke-width=".7"/>
+<text x="361.984251968504" y="224.9858267716536" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.126</text>
+<text x="7.653543307086616" y="244.48818897637798" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="normal" font-style="normal" fill="#252A2E">mTOR–autophagy–</text>
+<text x="7.653543307086616" y="253.55905511811022" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="normal" font-style="normal" fill="#252A2E">lipophagy axis</text>
+<text x="439.3700787401575" y="249.02362204724412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Directional</text>
+<circle cx="248.25087721756645" cy="236.69291338582678" r="2.834645669291339" fill="#FFFFFF" stroke="#367994" stroke-width=".7"/>
+<text x="361.984251968504" y="239.15905511811027" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.990</text>
+<rect x="255.8567278020546" y="243.77952755905514" width="5.669291338582678" height="5.669291338582678" fill="#FFFFFF" stroke="#AE7159" stroke-width="0.7"/>
+<text x="361.984251968504" y="249.08031496062995" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.780</text>
+<polygon points="261.3974157798998,253.24724409448822 258.44938428383676,259.1433070866142 264.3454472759628,259.1433070866142" fill="#FFFFFF" stroke="#577E6A" stroke-width=".7"/>
+<text x="361.984251968504" y="259.00157480314965" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.688</text>
+<text x="7.653543307086616" y="283.03937007874015" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="normal" font-style="normal" fill="#252A2E">Lipophagy core</text>
+<text x="439.3700787401575" y="283.03937007874015" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Directional</text>
+<circle cx="192.82141888457468" cy="270.70866141732284" r="2.834645669291339" fill="#FFFFFF" stroke="#367994" stroke-width=".7"/>
+<text x="361.984251968504" y="273.17480314960636" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.919</text>
+<rect x="184.66946361601424" y="277.7952755905512" width="5.669291338582678" height="5.669291338582678" fill="#FFFFFF" stroke="#AE7159" stroke-width="0.7"/>
+<text x="361.984251968504" y="283.096062992126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0.638</text>
+<polygon points="152.55626274474218,287.2629921259843 149.6082312486792,293.15905511811025 155.5042942408052,293.15905511811025" fill="#577E6A" stroke="#577E6A" stroke-width=".7"/>
+<text x="361.984251968504" y="293.0173228346457" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">0.00660</text>
+<text x="7.653543307086616" y="312.51968503937013" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">VIC osteogenic</text>
+<text x="7.653543307086616" y="321.59055118110234" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="bold" font-style="normal" fill="#252A2E">differentiation</text>
+<text x="439.3700787401575" y="317.05511811023626" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#367994">Strong</text>
+<circle cx="294.60297114319343" cy="304.7244094488189" r="2.834645669291339" fill="#367994" stroke="#367994" stroke-width=".7"/>
+<text x="361.984251968504" y="307.1905511811024" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">0.0381</text>
+<rect x="294.6250704078891" y="311.8110236220473" width="5.669291338582678" height="5.669291338582678" fill="#AE7159" stroke="#AE7159" stroke-width="0.7"/>
+<text x="361.984251968504" y="317.11181102362207" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">0.0219</text>
+<polygon points="303.8228726103069,321.27874015748034 300.8748411142439,327.17480314960636 306.7709041063699,327.17480314960636" fill="#577E6A" stroke="#577E6A" stroke-width=".7"/>
+<text x="361.984251968504" y="327.03307086614177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="bold" font-style="normal" fill="#252A2E">0.00660</text>
+<line x1="140.31496062992127" y1="331.65354330708664" x2="313.2283464566929" y2="331.65354330708664" stroke="#252A2E" stroke-width="0.65"/>
+<line x1="144.43194600674917" y1="331.65354330708664" x2="144.43194600674917" y2="334.488188976378" stroke="#252A2E" stroke-width="0.65"/>
+<text x="144.43194600674917" y="342.992125984252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">−2</text>
+<line x1="185.60179977502816" y1="331.65354330708664" x2="185.60179977502816" y2="334.488188976378" stroke="#252A2E" stroke-width="0.65"/>
+<text x="185.60179977502816" y="342.992125984252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">−1</text>
+<line x1="226.7716535433071" y1="331.65354330708664" x2="226.7716535433071" y2="334.488188976378" stroke="#252A2E" stroke-width="0.65"/>
+<text x="226.7716535433071" y="342.992125984252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">0</text>
+<line x1="267.94150731158607" y1="331.65354330708664" x2="267.94150731158607" y2="334.488188976378" stroke="#252A2E" stroke-width="0.65"/>
+<text x="267.94150731158607" y="342.992125984252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">1</text>
+<line x1="309.111361079865" y1="331.65354330708664" x2="309.111361079865" y2="334.488188976378" stroke="#252A2E" stroke-width="0.65"/>
+<text x="309.111361079865" y="342.992125984252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">2</text>
+<text x="226.7716535433071" y="354.6141732283465" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7.2" font-weight="normal" font-style="normal" fill="#252A2E">NES (calcified versus normal)</text>
+<circle cx="130.3937007874016" cy="368.5039370078741" r="2.2110236220472443" fill="#252A2E" stroke="#252A2E" stroke-width=".7"/>
+<text x="136.06299212598427" y="370.9133858267717" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">BH P &lt; 0.05</text>
+<circle cx="235.27559055118112" cy="368.5039370078741" r="2.2110236220472443" fill="#FFFFFF" stroke="#252A2E" stroke-width=".7"/>
+<text x="240.9448818897638" y="370.9133858267717" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">BH P ≥ 0.05</text>
+<text x="4.535433070866143" y="391.18110236220474" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#252A2E">c</text>
+<text x="25.51181102362205" y="391.18110236220474" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="8.2" font-weight="bold" font-style="normal" fill="#252A2E">Osteogenic leading-edge genes</text>
+<rect x="120.4724409448819" y="401.6692913385827" width="212.59842519685043" height="67.46456692913387" fill="#F0F6F8" stroke="#F0F6F8" stroke-width="0.35"/>
+<text x="138.18897637795277" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="bold" font-style="italic" fill="#252A2E">RUNX2</text>
+<text x="173.62204724409452" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="bold" font-style="italic" fill="#252A2E">SPP1</text>
+<text x="209.05511811023624" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="bold" font-style="italic" fill="#252A2E">IBSP</text>
+<text x="244.48818897637798" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="bold" font-style="italic" fill="#252A2E">ENPP1</text>
+<text x="279.9212598425197" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="bold" font-style="italic" fill="#252A2E">DLX5</text>
+<text x="315.35433070866145" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="bold" font-style="italic" fill="#252A2E">SLC20A1</text>
+<text x="350.7874015748032" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="normal" font-style="italic" fill="#252A2E">WNT5A</text>
+<text x="386.22047244094495" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="normal" font-style="italic" fill="#252A2E">COL1A1</text>
+<text x="421.65354330708664" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="normal" font-style="italic" fill="#252A2E">COL1A2</text>
+<text x="457.0866141732284" y="414.4251968503937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.9" font-weight="normal" font-style="italic" fill="#252A2E">ALPL</text>
+<circle cx="8.503937007874017" cy="428.5984251968504" r="2.182677165354331" fill="#367994" stroke="#367994" stroke-width=".7"/>
+<text x="15.023622047244096" y="431.1496062992126" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Discovery</text>
+<rect x="123.16535433070868" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="158.59842519685043" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="194.03149606299215" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="229.4645669291339" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="264.8976377952756" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="300.33070866141736" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="335.7637795275591" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#AFCBD8" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="371.1968503937008" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="406.62992125984255" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="442.06299212598424" y="422.6456692913386" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="6.3212598425196855" y="443.42362204724407" width="4.365354330708662" height="4.365354330708662" fill="#AE7159" stroke="#AE7159" stroke-width="0.7"/>
+<text x="15.023622047244096" y="448.15748031496065" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Integrated sensitivity</text>
+<rect x="123.16535433070868" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="158.59842519685043" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="194.03149606299215" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="229.4645669291339" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="264.8976377952756" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="300.33070866141736" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="335.7637795275591" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="371.1968503937008" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#E3B3A0" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="406.62992125984255" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="442.06299212598424" y="439.65354330708664" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<polygon points="8.503937007874017,460.08226771653545 6.233952755905512,464.6222362204725 10.77392125984252,464.6222362204725" fill="#577E6A" stroke="#577E6A" stroke-width=".7"/>
+<text x="15.023622047244096" y="465.1653543307087" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#252A2E">Validation</text>
+<rect x="123.16535433070868" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="158.59842519685043" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="194.03149606299215" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="229.4645669291339" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="264.8976377952756" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="300.33070866141736" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="335.7637795275591" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#FFFFFF" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="371.1968503937008" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="406.62992125984255" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<rect x="442.06299212598424" y="456.66141732283467" width="30.047244094488192" height="11.905511811023624" fill="#BFD0C5" stroke="#B7C3CA" stroke-width="0.4"/>
+<line x1="123.16535433070868" y1="473.38582677165357" x2="330.37795275590554" y2="473.38582677165357" stroke="#367994" stroke-width="0.65"/>
+<line x1="123.16535433070868" y1="473.38582677165357" x2="123.16535433070868" y2="470.8346456692914" stroke="#367994" stroke-width="0.65"/>
+<line x1="330.37795275590554" y1="473.38582677165357" x2="330.37795275590554" y2="470.8346456692914" stroke="#367994" stroke-width="0.65"/>
+<text x="226.7716535433071" y="484.1574803149607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="normal" font-style="normal" fill="#367994">Shared in all three analysis sets</text>
+<text x="5.669291338582678" y="498.8976377952756" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">Colored cell: present in leading edge</text>
+<text x="476.22047244094495" y="498.8976377952756" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="6.7" font-weight="normal" font-style="normal" fill="#64717A">White cell: absent</text>
+</svg>

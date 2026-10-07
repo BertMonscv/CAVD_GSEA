@@ -1,0 +1,17 @@
+package	version
+fgsea	1.36.2
+limma	3.66.0
+sva	3.58.0
+msigdbr	7.5.1
+HGNChelper	0.8.15
+digest	0.6.39
+BiocManager	1.30.27
+AnnotationDbi	1.72.0
+hgu133plus2.db	3.13.0
+illuminaHumanv4.db	1.26.0
+BiocParallel	1.44.0
+ggplot2	4.0.2
+patchwork	1.3.2
+ggrepel	0.9.7
+clusterProfiler	4.18.4
+org.Hs.eg.db	3.22.0

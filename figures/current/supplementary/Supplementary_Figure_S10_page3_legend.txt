@@ -1,0 +1,1 @@
+Supplementary Figure S10 continued. g,h Gene Ontology biological-process and KEGG pathway enrichment of discovery-cohort differentially expressed genes. Dot size indicates the number of mapped genes; position and color indicate −log₁₀ adjusted P.

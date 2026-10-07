@@ -1,0 +1,69 @@
+
+
+
+
+[load] GSE51472...
+'select()' returned 1:many mapping between keys and columns
+[load] GSE12644...
+'select()' returned 1:many mapping between keys and columns
+[load] GSE83453...
+'select()' returned 1:many mapping between keys and columns
+[combat] integrating GSE51472 + GSE12644...
+Found2batches
+Adjusting for1covariate(s) or covariate level(s)
+Standardizing Data across genes
+Fitting L/S model and finding priors
+Finding parametric adjustments
+Adjusting the Data
+
+[limma] DE...
+
+=== DEG COUNTS (|log2FC|>1 & adj.P<0.05) ===
+  Discovery  (GSE51472):       up=542 down=342 total=884
+  Integrated (51472+12644):    up=5 down=0 total=5
+  Validation (GSE83453):       up=76 down=41 total=117
+
+=== PCA VARIANCE (PC1%) ===
+  GSE51472: PC1=47.3% PC2=23.2%
+  GSE12644: PC1=97.4% PC2=0.8%
+  GSE83453: PC1=27.7% PC2=16.7%
+
+=== KEY MARKER logFC (Calcified vs Normal) ===
+  SPP1     discovery=+4.37 integrated=+3.90 validation=+3.54
+  IBSP     discovery=+4.93 integrated=+3.99 validation=+0.85
+  RUNX2    discovery=+1.37 integrated=+1.33 validation=+0.42
+  BMP2     discovery=-0.44 integrated=-0.55 validation=+0.20
+  ALPL     discovery=-0.77 integrated=-0.50 validation=+0.40
+  SOX9     discovery=-1.35 integrated=-1.12 validation=-0.09
+
+[enrich] GO + KEGG on discovery DEGs...
+'select()' returned 1:many mapping between keys and columns
+Reading KEGG annotation online: "https://rest.kegg.jp/link/hsa/pathway"...
+Reading KEGG annotation online: "https://rest.kegg.jp/list/pathway/hsa"...
+
+=== TOP 5 GO BP ===
+                    Description     p.adjust Count
+GO:0006935           chemotaxis 9.430769e-32    91
+GO:0042330                taxis 9.430769e-32    91
+GO:0030595 leukocyte chemotaxis 3.958178e-27    60
+GO:0060326      cell chemotaxis 2.444675e-25    68
+GO:0050900  leukocyte migration 6.159245e-25    74
+
+=== TOP 5 KEGG ===
+                                                           Description
+hsa04061 Viral protein interaction with cytokine and cytokine receptor
+hsa04060                        Cytokine-cytokine receptor interaction
+hsa05323                                          Rheumatoid arthritis
+hsa04640                                    Hematopoietic cell lineage
+hsa04512                                      ECM-receptor interaction
+             p.adjust Count
+hsa04061 3.580912e-15    31
+hsa04060 3.912634e-13    50
+hsa05323 1.159415e-10    25
+hsa04640 2.112411e-09    24
+hsa04512 6.182101e-09    22
+
+[done] All panels written to results/Figure1_panels/
+Review the console numbers above and update manuscript Section 3.1 to match.
+
+SUCCESS: baseline outputs: <OUTPUT_DIR>/baseline

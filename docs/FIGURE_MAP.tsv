@@ -1,0 +1,14 @@
+current_location	historical_source	current_output
+Figure 1a	cohort design in frozen implementation	figures/current/Figure1.pdf
+Figure 1b	results/forestplot_data.tsv, without deprecated intervals	results/current/Figure1_GSEA_values.csv
+Figure 1c	results/Supp_Table_S2_v2.tsv leading_edge	results/current/Figure1_osteogenic_leading_edge_matrix.csv
+Figure S1	results/Supp_Table_S2_v2.tsv, discovery hallmark_50pool	figures/current/supplementary/
+Figure S2	results/Figure1_panels/Figure1B_PCA_combat.pdf	figures/current/supplementary/
+Figure S10a	results/Figure1_panels/Figure1A_PCA_percohort.pdf	figures/current/supplementary/
+Figure S10b	results/Figure1_panels/Figure1C_volcano_discovery.pdf	figures/current/supplementary/
+Figure S10c	results/Figure1_panels/Figure1D_volcano_validation.pdf	figures/current/supplementary/
+Figure S10d	results/Figure1_panels/Figure1E_markers_discovery.pdf	figures/current/supplementary/
+Figure S10e	results/Figure1_panels/Figure1F_markers_validation.pdf	figures/current/supplementary/
+Figure S10f	results/Figure1_panels/Figure1G_crosscohort_forest.pdf	figures/current/supplementary/
+Figure S10g	results/Figure1_panels/Figure1H_GO.pdf	figures/current/supplementary/
+Figure S10h	results/Figure1_panels/Figure1I_KEGG.pdf, archived online annotation	figures/current/supplementary/

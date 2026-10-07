@@ -1,0 +1,133 @@
+{
+  "source_run": "gsea-run-v2",
+  "source_run_commit": "18f0f7f43289a0751ed17e0d6bcbcb495c0f04c6",
+  "reporting_version": "v125",
+  "figure_layout_source": "Original Figure 1 publication rebuild script, 2026-10-06",
+  "expression_analysis_rerun": false,
+  "NES_intervals_reported": false,
+  "data_only": false,
+  "software": {
+    "python": "3.12.14",
+    "packages": {
+      "reportlab": "4.4.9",
+      "pypdf": "6.10.0",
+      "Pillow": "12.3.0"
+    },
+    "pdftoppm": "pdftoppm version 26.05.0"
+  },
+  "input_files": [
+    {
+      "path": "results/Supp_Table_S2_v2.tsv",
+      "sha256": "66928c006d8369bc7cefe495c9c1d771c1bf72cc4f729f0dcc95984bb70c7a62"
+    },
+    {
+      "path": "results/cross_cohort_consistency_v2.tsv",
+      "sha256": "d7eb1c016d9812a6fc47192b32c134dc38c6cc82ba6bf6401f44f739181f7cb8"
+    }
+  ],
+  "script_sha256": "81b089cc10519e3c961f80dfb1899e4f3261b57ab9ab9dec8f9112b85f862865",
+  "fonts": [
+    {
+      "file": "Arial.ttf",
+      "family": "Arial",
+      "sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9"
+    },
+    {
+      "file": "Arial Bold.ttf",
+      "family": "Arial",
+      "sha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0"
+    },
+    {
+      "file": "Arial Italic.ttf",
+      "family": "Arial",
+      "sha256": "ce1d2f1ab89db45f9796100eee960f5702a40e84c225c2b48c3ec3e81d153f98"
+    },
+    {
+      "file": "Arial Bold Italic.ttf",
+      "family": "Arial",
+      "sha256": "374b0190a9844343110d8f8ed1818117a4591803d022bbb2bd189d63a681e731"
+    }
+  ],
+  "figure_mm": [
+    170.0,
+    178.0
+  ],
+  "raster_dpi": 600,
+  "outputs": [
+    {
+      "path": "results/current/BH_verification.json",
+      "bytes": 1496,
+      "sha256": "5468a7408dea6c90451adab0e7d244fadc7c39b8630c2e5dcbdc72fa5d183081"
+    },
+    {
+      "path": "results/current/Figure1_GSEA_values.csv",
+      "bytes": 4223,
+      "sha256": "b85fb3c158edbf71a7dd1cacedab14d3e440eca4463fce6e2af0126a429d6cf3"
+    },
+    {
+      "path": "results/current/Figure1_osteogenic_leading_edge_matrix.csv",
+      "bytes": 239,
+      "sha256": "b30bb7190494ac679bd78ef206a804cc6e9d3abb2b25a05664e016f9d9eba00a"
+    },
+    {
+      "path": "results/current/GSEA_results.tsv",
+      "bytes": 28174,
+      "sha256": "10252548bda1898755b8c995e8289fa0bf4d8c8f0e13cff43d9aebe2753e4259"
+    },
+    {
+      "path": "results/current/figure1_QA/legend_size_QA.json",
+      "bytes": 224,
+      "sha256": "ad4f08ffad5698b412d2d6115633279e71d2880d71961565f5a146e12b6c43dd"
+    },
+    {
+      "path": "results/current/figure1_QA/plotted_elements.json",
+      "bytes": 10266,
+      "sha256": "6fc21d6716a7d197160324061c557a2ab818552789d252ca8e87c3c523d8a3f6"
+    },
+    {
+      "path": "results/current/figure1_QA/text_bounds_QA.json",
+      "bytes": 12878,
+      "sha256": "9dcab244ba968d7f4ef2e337803712cebeacd4430856f0d9d6e163a278f8897e"
+    },
+    {
+      "path": "figures/current/Figure1.pdf",
+      "bytes": 126458,
+      "sha256": "488bc69fd3c1fade3546f8fafc8186e98f112cfb6593ecc6a6e9896702a4b89d"
+    },
+    {
+      "path": "figures/current/Figure1_600dpi.png",
+      "bytes": 543512,
+      "sha256": "72088c0c6944aaf2d85d12538aa457b459b469adffe3a7325ce6ef0eb68d3333"
+    },
+    {
+      "path": "figures/current/Figure1_600dpi.tif",
+      "bytes": 1187976,
+      "sha256": "ca99dcf8cadfe570e4014a5409f5291a5981eae06702a1919500aaddb6f11979"
+    },
+    {
+      "path": "figures/current/Figure1_editable.svg",
+      "bytes": 28722,
+      "sha256": "8186d24776916376238c74d77ea4da856b80a2c2395f7e40104212051745af77"
+    },
+    {
+      "path": "figures/current/Figure1_legend.txt",
+      "bytes": 1230,
+      "sha256": "1ca46f51eac374e80809ab3b25a9ba2156efa9399a71024c5f47cac4d849ac19"
+    },
+    {
+      "path": "figures/current/Figure1_preview.png",
+      "bytes": 375450,
+      "sha256": "a77460c5ea3b08f4b5dd4b15196828a7efb9c0d2966aaacd8df921b2f390e0b7"
+    },
+    {
+      "path": "figures/current/Figure1_with_legend_preview.png",
+      "bytes": 408207,
+      "sha256": "5320902e5e1d003d92e27b93934a4f599a23d0f7e5eaa166fd1ec720a5b059a3"
+    },
+    {
+      "path": "figures/current/Figure1_with_legend_proof.pdf",
+      "bytes": 205030,
+      "sha256": "35b68587c1e1acd85cddbd2009941d32c1954a133ebf25f879ee1400870b829b"
+    }
+  ]
+}

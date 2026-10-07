@@ -1,0 +1,62 @@
+[
+  {
+    "file": "Figure1A_PCA_percohort.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10a"
+  },
+  {
+    "file": "Figure1B_PCA_combat.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S2"
+  },
+  {
+    "file": "Figure1C_volcano_discovery.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10b"
+  },
+  {
+    "file": "Figure1D_volcano_validation.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10c"
+  },
+  {
+    "file": "Figure1E_markers_discovery.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10d"
+  },
+  {
+    "file": "Figure1F_markers_validation.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10e"
+  },
+  {
+    "file": "Figure1G_crosscohort_forest.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10f"
+  },
+  {
+    "file": "Figure1H_GO.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Supplementary Figure S10g"
+  },
+  {
+    "file": "Figure1I_KEGG.pdf",
+    "text_identical": false,
+    "render_pixels_identical_at_72dpi": false,
+    "current_use": "Supplementary Figure S10h"
+  },
+  {
+    "file": "combat_pca_check.pdf",
+    "text_identical": true,
+    "render_pixels_identical_at_72dpi": true,
+    "current_use": "Additional archived ComBat diagnostic"
+  }
+]

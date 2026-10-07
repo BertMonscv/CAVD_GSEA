@@ -1,0 +1,11 @@
+﻿gene,GSE51472,INTEGRATED,GSE83453,shared_all_three
+RUNX2,1,1,1,True
+SPP1,1,1,1,True
+IBSP,1,1,1,True
+ENPP1,1,1,1,True
+DLX5,1,1,1,True
+SLC20A1,1,1,1,True
+WNT5A,1,0,0,False
+COL1A1,0,1,1,False
+COL1A2,0,0,1,False
+ALPL,0,0,1,False

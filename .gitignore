@@ -19,5 +19,10 @@ csv/
 **/.DS_Store
 
 # Personal scratch (not part of freeze)
-docs/
 gene_sets_candidates.csv
+
+# Local reproduction and build scratch
+runs/
+__pycache__/
+*.pyc
+.venv/

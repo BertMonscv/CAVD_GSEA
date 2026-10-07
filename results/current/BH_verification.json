@@ -1,0 +1,64 @@
+{
+  "historical_results_recomputed": false,
+  "BH_recalculated": true,
+  "all_pools_passed": true,
+  "pool_checks": [
+    {
+      "analysis_set": "GSE51472",
+      "pool": "hypothesis_5pool",
+      "n_tests": 5,
+      "maximum_absolute_error": 9.992007221626409e-16,
+      "passed": true
+    },
+    {
+      "analysis_set": "GSE51472",
+      "pool": "supplementary_solo",
+      "n_tests": 1,
+      "maximum_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "analysis_set": "GSE51472",
+      "pool": "hallmark_50pool",
+      "n_tests": 50,
+      "maximum_absolute_error": 9.992007221626409e-16,
+      "passed": true
+    },
+    {
+      "analysis_set": "INTEGRATED",
+      "pool": "hypothesis_5pool",
+      "n_tests": 5,
+      "maximum_absolute_error": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "analysis_set": "INTEGRATED",
+      "pool": "supplementary_solo",
+      "n_tests": 1,
+      "maximum_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "analysis_set": "GSE83453",
+      "pool": "hypothesis_5pool",
+      "n_tests": 5,
+      "maximum_absolute_error": 4.996003610813204e-16,
+      "passed": true
+    },
+    {
+      "analysis_set": "GSE83453",
+      "pool": "supplementary_solo",
+      "n_tests": 1,
+      "maximum_absolute_error": 0.0,
+      "passed": true
+    }
+  ],
+  "withdrawn_columns_omitted": [
+    "NES_SD",
+    "NES_lower_95CI",
+    "NES_upper_95CI"
+  ],
+  "full_result_rows": 68,
+  "figure_rows": 15,
+  "leading_edge_matrix_cells": 30
+}

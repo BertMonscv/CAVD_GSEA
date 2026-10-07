@@ -1,0 +1,1 @@
+Supplementary Figure S2. Principal component analysis of the integrated GSE51472 + GSE12644 cohort before and after ComBat correction. Residual separation by study persisted after correction, with PC1 accounting for 75.1% of variance. The integrated cohort was used for sensitivity analysis (Sections 2.4 and 3.1).

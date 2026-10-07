@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "CAVD_GSEA: transcriptomic and gene-set enrichment analyses of calcific aortic valve disease"
+message: "Please cite the archived release if you use the code, data or figures."
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Zongyue"
+    orcid: "https://orcid.org/0009-0007-1907-3655"
+    affiliation: "First Affiliated Hospital with Nanjing Medical University"
+  - family-names: "Wu"
+    given-names: "Yanhu"
+    orcid: "https://orcid.org/0000-0002-7941-8623"
+    affiliation: "First Affiliated Hospital with Nanjing Medical University"
+repository-code: "https://github.com/BertMonscv/CAVD_GSEA"
+url: "https://github.com/BertMonscv/CAVD_GSEA"
+version: "1.0.0"
+date-released: "2026-10-07"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Frozen and reproducible transcriptomic analyses of calcific aortic valve
+  disease using GSE51472, GSE12644 and GSE83453. Includes targeted GSEA,
+  descriptive Hallmark enrichment, annotated gene sets, current manuscript
+  figures, verified source tables, public-data retrieval and reproduction
+  records. The release preserves historical files and documents the
+  withdrawal of historical NES uncertainty intervals.
+keywords:
+  - calcific aortic valve disease
+  - valvular interstitial cells
+  - leptin
+  - mTORC1
+  - autophagy
+  - gene set enrichment analysis
+  - reproducible research
