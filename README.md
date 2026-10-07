@@ -1,5 +1,7 @@
 # CAVD_GSEA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23212222.svg)](https://doi.org/10.5281/zenodo.23212222)
+
 Reproducible transcriptomic analyses of calcific aortic valve disease supporting *Leptin promotes osteogenic differentiation with mTORC1 activation, impaired autophagic flux and lipid droplet accumulation in human valvular interstitial cells*.
 
 **Manuscript release: v1.0.0 (7 October 2026).** The current results are in [`results/current/`](results/current/) and the current main figure is in [`figures/current/`](figures/current/). The historical analysis, plans and results remain at their original paths and commits. See the [reporting corrections](docs/REPORTING_CORRECTIONS_2026-10-07.md) before using historical NES uncertainty columns or old figure numbers.
@@ -91,7 +93,11 @@ The analysis provenance is preserved through these commits:
 
 The dated manuscript-release corrections preserve this history. They do not redefine the historical plans as if the release-stage corrections had been prospective.
 
-Please cite the released software archive using [`CITATION.cff`](CITATION.cff). Authors: **Zongyue Li and Yanhu Wu**, First Affiliated Hospital with Nanjing Medical University. The repository's GitHub release is the source for its corresponding Zenodo software archive.
+Please cite the released software archive using [`CITATION.cff`](CITATION.cff). Authors: **Zongyue Li and Yanhu Wu**, First Affiliated Hospital with Nanjing Medical University.
+
+**Version 1.0.0 DOI:** [10.5281/zenodo.23212222](https://doi.org/10.5281/zenodo.23212222). The [Zenodo record](https://zenodo.org/records/23212222) archives the [GitHub release](https://github.com/BertMonscv/CAVD_GSEA/releases/tag/v1.0.0) at commit `4cc38203f0013cd5b68e80b59bc99687f8ecf585`. The [all-versions DOI](https://doi.org/10.5281/zenodo.23212221) identifies this software project across releases.
+
+Li, Z., & Wu, Y. (2026). *CAVD_GSEA: transcriptomic and gene-set enrichment analyses of calcific aortic valve disease* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23212222
 
 ## Licenses
 
