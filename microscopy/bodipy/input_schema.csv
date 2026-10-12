@@ -1,0 +1,8 @@
+column,type,definition
+group,text,"Exact treatment label: PM, PM+Lep, or PM+Lep+Rapa"
+batch,text,"Recorded matched experiment label: B1, B2, or B3; match across groups by these labels"
+bio_id,text,"Original biological replicate identifier; consistent across four fields within one group and batch"
+field_id,text,"Recorded field identifier; unique within each group and batch"
+n_cells,positive integer,Number of quantified cells contributing to this field
+mean_n,nonnegative number,Mean lipid droplet number per cell within this field
+mean_area,nonnegative number,Mean total lipid droplet area per cell within this field in square micrometres

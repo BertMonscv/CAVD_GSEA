@@ -2,9 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23212222.svg)](https://doi.org/10.5281/zenodo.23212222)
 
-Reproducible transcriptomic analyses of calcific aortic valve disease supporting *Leptin promotes osteogenic differentiation with mTORC1 activation, impaired autophagic flux and lipid droplet accumulation in human valvular interstitial cells*.
+Transcriptomic analyses and microscopy processing code supporting *Pharmacological modulation of autophagy and lipid storage attenuates leptin-enhanced osteogenic differentiation in human aortic valve interstitial cells*.
 
-**Manuscript release: v1.0.0 (7 October 2026).** The current results are in [`results/current/`](results/current/) and the current main figure is in [`figures/current/`](figures/current/). The historical analysis, plans and results remain at their original paths and commits. See the [reporting corrections](docs/REPORTING_CORRECTIONS_2026-10-07.md) before using historical NES uncertainty columns or old figure numbers.
+**GSEA manuscript release: v1.0.0 (7 October 2026).** The current results are in [`results/current/`](results/current/) and the current main figure is in [`figures/current/`](figures/current/). The historical analysis, plans and results remain at their original paths and commits. See the [reporting corrections](docs/REPORTING_CORRECTIONS_2026-10-07.md) before using historical NES uncertainty columns or old figure numbers.
+
+**Microscopy code added on 12 October 2026:** [measurement macros, statistical companions and execution instructions](microscopy/README.md). These files are versioned in GitHub. The Zenodo v1.0.0 DOI above continues to identify the GSEA release and does not contain the later microscopy addition.
 
 ![Current Figure 1](figures/current/Figure1_preview.png)
 
@@ -16,8 +18,9 @@ Reproducible transcriptomic analyses of calcific aortic valve disease supporting
 - The transcriptomic supplementary figure sources and a map from historical to current figure numbers.
 - Public GEO input retrieval, SHA-256 checks, an R environment specification, isolated analysis entry points and actual reproduction records.
 - Citation metadata, explicit licenses and GitHub-to-Zenodo release metadata.
+- Microscopy macros for p-S6, VIC characterization and LC3B–BODIPY, retained independent BODIPY macros, and current statistical reproducibility companions with documented provenance.
 
-This archive covers the transcriptomic component of the study. Western blot, ALP, mineralization and microscopy source data are documented in the manuscript's separate supplementary and source-data packages.
+The v1.0.0 Zenodo archive covers the transcriptomic component of the study. The current GitHub repository also provides microscopy code. Western blot, ALP, mineralization and microscopy source data retain the access terms stated in the manuscript and supplementary files.
 
 ## Study design and result structure
 
@@ -79,7 +82,8 @@ Details are in [`docs/validation/`](docs/validation/). Baseline KEGG version dep
 | `scripts/` | Data retrieval, isolated R reruns and current figure generation |
 | `environment/` | Input/source checksums, package versions and restoration instructions |
 | `docs/` | Corrections, figure mapping, reproduction instructions and verification records |
-| `CITATION.cff`, `.zenodo.json` | Author and release metadata |
+| `microscopy/` | ImageJ/Fiji source macros, Python scripts, provenance and execution instructions |
+| `CITATION.cff`, `.zenodo.json` | Author and metadata for the GSEA v1.0.0 archive |
 
 ## Versions and citation
 
@@ -93,7 +97,9 @@ The analysis provenance is preserved through these commits:
 
 The dated manuscript-release corrections preserve this history. They do not redefine the historical plans as if the release-stage corrections had been prospective.
 
-Please cite the released software archive using [`CITATION.cff`](CITATION.cff). Authors: **Zongyue Li and Yanhu Wu**, First Affiliated Hospital with Nanjing Medical University.
+For the microscopy code, cite this GitHub repository with the exact commit recorded in the manuscript and consult [microscopy/README.md](microscopy/README.md) for source and publication-companion distinctions.
+
+For GSEA, please cite the released software archive using [`CITATION.cff`](CITATION.cff). Authors: **Zongyue Li and Yanhu Wu**, First Affiliated Hospital with Nanjing Medical University.
 
 **Version 1.0.0 DOI:** [10.5281/zenodo.23212222](https://doi.org/10.5281/zenodo.23212222). The [Zenodo record](https://zenodo.org/records/23212222) archives the [GitHub release](https://github.com/BertMonscv/CAVD_GSEA/releases/tag/v1.0.0) at commit `4cc38203f0013cd5b68e80b59bc99687f8ecf585`. The [all-versions DOI](https://doi.org/10.5281/zenodo.23212221) identifies this software project across releases.
 

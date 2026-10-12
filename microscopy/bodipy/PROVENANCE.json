@@ -1,0 +1,25 @@
+{
+  "publication_packaging_date": "2026-10-12",
+  "source_files": [
+    {
+      "published_file": "bodipy_batch.ijm",
+      "original_filename": "bodipy_batch (3).ijm",
+      "original_sha256": "596cd558bbd510d26e4a91317ae258514ac04fd9fc93731e4c5307069e3a36f6",
+      "published_sha256": "596cd558bbd510d26e4a91317ae258514ac04fd9fc93731e4c5307069e3a36f6",
+      "changes": "None; byte-identical retained source.",
+      "scope": "Retained measurement macro; exact historical linkage to the final 1364-cell dataset has not been established."
+    },
+    {
+      "published_file": "make_bodipy_representative_panel.ijm",
+      "original_filename": "make_bodipy_figure.ijm",
+      "original_sha256": "a3dbf28c9a25893be1fb9da7493b8ae26b708ee50e0afb4c1cc4b72d65c04128",
+      "published_sha256": "0ca5b81c37d56871f0dfe7bb0e7b5b6ddcd72636b43ba25107edf3c1fde3ce3d",
+      "changes": "Replaced three absolute input/output paths with folder dialogs and removed a personal Desktop path from a comment. Image coordinates, display ranges, calibration and operations are unchanged."
+    }
+  ],
+  "new_companion": {
+    "file": "reproduce_bodipy_statistics.py",
+    "purpose": "Publication reproducibility companion assembled on2026-10-12 to reproduce current TableS13/Figure5b-c from recorded field-level means. This is not represented as the historical script used for image measurement."
+  },
+  "data_included": false
+}

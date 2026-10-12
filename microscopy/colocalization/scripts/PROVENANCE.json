@@ -1,0 +1,7 @@
+{
+  "path": "reproduce_coloc_statistics.py",
+  "created": "2026-10-12",
+  "status": "publication reproducibility companion",
+  "purpose": "Reproduce Figure 5e\u2013h summaries and paired tests from recorded experiment-level values, not image measurement or per-cell coefficients.",
+  "sha256": "874023ec2a490819b59a50e31f82b042678ac672de9486ee97aa45cceddb7b1b"
+}
