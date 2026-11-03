@@ -13,9 +13,8 @@ authors:
     affiliation: "First Affiliated Hospital with Nanjing Medical University"
 repository-code: "https://github.com/BertMonscv/CAVD_GSEA"
 url: "https://github.com/BertMonscv/CAVD_GSEA"
-version: "1.0.0"
-doi: "10.5281/zenodo.23212222"
-date-released: "2026-10-07"
+version: "1.1.0"
+date-released: "2026-11-03"
 license:
   - MIT
   - CC-BY-4.0
@@ -25,7 +24,9 @@ abstract: >-
   descriptive Hallmark enrichment, annotated gene sets, current manuscript
   figures, verified source tables, public-data retrieval and reproduction
   records. The release preserves historical files and documents the
-  withdrawal of historical NES uncertainty intervals.
+  withdrawal of historical NES uncertainty intervals. Version 1.1.0 also
+  archives microscopy processing code and updates journal-neutral
+  documentation without changing scientific calculations.
 keywords:
   - calcific aortic valve disease
   - valvular interstitial cells

@@ -1,6 +1,6 @@
 {
   "title": "CAVD_GSEA: transcriptomic and gene-set enrichment analyses of calcific aortic valve disease",
-  "description": "<p>Reproducible transcriptomic analyses supporting the study of leptin, mTORC1 activation, autophagy and osteogenic differentiation in calcific aortic valve disease. The archive contains frozen plans and implementation, curated gene sets, 68 GSEA results, current manuscript Figure 1 and transcriptomic supplementary figures, public GEO input retrieval, environment specifications and actual reproduction records.</p><p>The 7 October 2026 validation reproduced all 68 GSEA rows and 13 retained fields. Historical NES uncertainty intervals are excluded from current reporting; the original files and dated correction note preserve the analysis history. The historical KEGG figure uses an online annotation source and is retained with a documented version-dependence note.</p><p>Code is licensed under MIT. Author-created data, figures and scientific documentation are licensed under CC BY 4.0. Third-party resources retain their original terms. This archive covers transcriptomic analysis; wet-laboratory and microscopy source-data packages are separate.</p>",
+  "description": "<p>Reproducible transcriptomic analyses and microscopy processing code supporting the study of leptin, autophagy, lipid storage and osteogenic differentiation in human aortic valve interstitial cells. This release includes the frozen GSEA plans and implementation, curated gene sets, 68 GSEA results, public GEO retrieval and reproduction records, together with the microscopy measurement macros and statistical companion scripts added to GitHub in October 2026.</p><p>Version 1.1.0 removes obsolete journal-specific wording from the VIC-characterization plotting entry point and updates the manuscript-location documentation. The archived GSEA Figure 1 corresponds to Supplementary Figure S10 in the revised manuscript; historical output filenames are preserved. The repository does not generate the complete revised nine-figure manuscript layout.</p><p>No measurement algorithms, filtering rules, numerical constants, saved output names, experimental images or scientific results were changed in this cleanup. Syntax, normalized computational structure and publication-file checksums were checked. A new biological analysis or complete microscopy rerun was not performed. The prior GSEA validation and limitations remain documented.</p><p>Code is licensed under MIT. Author-created data, figures and scientific documentation are licensed under CC BY 4.0. Third-party resources retain their original terms. Microscopy source images and other wet-laboratory source data are not included in this code archive.</p>",
   "creators": [
     {
       "name": "Li, Zongyue",
@@ -16,8 +16,8 @@
   "access_right": "open",
   "license": "mit",
   "upload_type": "software",
-  "version": "1.0.0",
-  "publication_date": "2026-10-07",
+  "version": "1.1.0",
+  "publication_date": "2026-11-03",
   "keywords": [
     "calcific aortic valve disease",
     "leptin",
@@ -35,5 +35,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "Software license: MIT. Author-created data, figures and scientific documentation: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite this versioned archive. The associated GitHub repository retains the original analysis commits and a dated reporting correction."
+  "notes": "Version 1.1.0 includes the microscopy code that was absent from the v1.0.0 archive. Historical analysis commits and the v1.0.0 DOI remain unchanged. Software: MIT; author-created data, figures and documentation: CC BY 4.0. Source-image access follows the manuscript data-availability statement."
 }

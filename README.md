@@ -12,6 +12,9 @@ Transcriptomic analyses and microscopy processing code supporting *Pharmacologic
 
 ![Archived GSEA Figure 1; current Supplementary Figure S10](figures/current/Figure1_preview.png)
 
+
+**Code archive v1.1.0 (3 November 2026):** this version also archives the microscopy code and the journal-neutral documentation cleanup. The v1.0.0 DOI above remains the historical GSEA-only archive. See the [v1.1.0 release](https://github.com/BertMonscv/CAVD_GSEA/releases/tag/v1.1.0) for its versioned Zenodo DOI. No scientific calculations or experimental image content were changed for this documentation release.
+
 ## What is included
 
 - The frozen GSEA plans, implementation, curated gene sets, annotations and archived results.
