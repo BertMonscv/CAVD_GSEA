@@ -1,32 +1,34 @@
 # Publication adaptation (2026-10-12): portable data/output path configuration only.
 # Analysis, filtering, thresholds and plotting logic unchanged.
+# Documentation adaptation (2026-11-03): neutral entry-point name and labels.
+# Historical FigureS6_identity output stem and numerical settings are retained.
 #!/usr/bin/env python3
 # =============================================================================
-#  Supplementary Figure S6 - VIC identity verification (vimentin / alpha-SMA)
-#  CAVD manuscript - Molecular Medicine (BioMed Central) submission
+#  VIC identity verification (vimentin / alpha-SMA; current Figure S3)
+#  CAVD manuscript - retained identity-analysis and plotting workflow
 #
-#  FINAL production script. Run:  python make_FigureS6_MolMed.py
+#  Run: python make_vic_identity_figure.py
 #  Outputs FigureS6_identity.{pdf,tif,png} plus a printed audit of every number
-#  that appears in Supplementary Methods S2 and main-text Section 2.6, so the
+#  that appears in Supplementary Methods S2 and main-text Section 2.5, so the
 #  figure and the manuscript text can be diffed against a single source.
 #
 #  ---------------------------------------------------------------------------
-#  Journal specification applied (molmed.biomedcentral.com, Preparing figures)
+#  Retained historical output geometry (not current submission requirements)
 #  ---------------------------------------------------------------------------
-#   - full-page width exactly 170 mm; 107 mm tall, well inside the 225 mm limit
+#   - canvas width exactly 170 mm; height 107 mm
 #   - closely cropped, minimal surrounding white space
 #   - no figure title inside the graphic (titles and legends go in the text)
 #   - figure KEYS are inside the graphic (threshold key in a/b, colour key in c)
 #   - every rule >= 0.5 pt and every character >= 7 pt at final size
 #   - fonts embedded as TrueType/Type 42, Arial/Helvetica metric family
-#   - panel letters as bold lower-case a-d (BMC house style)
-#   - TIFF with LZW compression and vector PDF, both far below the 10 MB limit
+#   - panel letters as bold lower-case a-d in the retained output
+#   - TIFF with LZW compression and vector PDF
 #
 #  ---------------------------------------------------------------------------
 #  Two deliberate design decisions, both defensible to a reviewer
 #  ---------------------------------------------------------------------------
 #  1. Central tendency is the MEDIAN with the INTERQUARTILE RANGE, matching
-#     main-text Section 2.19 ("cell-level distributions ... summarized as
+#     main-text Section 2.17 ("cell-level distributions ... summarized as
 #     medians with interquartile ranges"). An earlier draft drew a median bar
 #     with a mean +/- SD whisker, which mixed two summaries in one glyph.
 #  2. Panels a and b have INDEPENDENT intensity axes. FITC exposure differed
@@ -59,7 +61,7 @@ PERFIELD_CSV = str(IDENTITY_DATA / "perfield.csv")
 PERCELL_CSV = str(IDENTITY_DATA / "percell.csv")
 OUTSTEM = str(IDENTITY_FIGURES / "FigureS6_identity")
 
-# ---- house spec (shared with Figure 4D-G / Figure 5G) ----------------------
+# ---- retained plot settings; historical companion panel labels unchanged ---
 # Arial first; Liberation Sans is metric-compatible and used as a fallback so
 # the layout is byte-identical on machines without Arial installed.
 plt.rcParams.update({
@@ -67,7 +69,7 @@ plt.rcParams.update({
     "svg.fonttype": "none",
     "font.family": "sans-serif",
     "font.sans-serif": ["Arial", "Helvetica", "Liberation Sans", "DejaVu Sans"],
-    "font.size": 7.0,            # BMC-safe floor: nothing below 7 pt
+    "font.size": 7.0,            # Retained historical font floor: 7 pt
     "axes.labelsize": 7.5,
     "xtick.labelsize": 7.0, "ytick.labelsize": 7.0,
     "legend.fontsize": 7.0,
@@ -147,7 +149,7 @@ def nice_log_ticks(lo, hi):
 
 
 def plain_log_yaxis(ax, ticks):
-    """Labelled ticks in plain numerals (BMC: no commas in numerical values)."""
+    """Labelled ticks in plain numerals without comma separators."""
     ax.yaxis.set_major_locator(FixedLocator(ticks))
     ax.yaxis.set_major_formatter(FixedFormatter([f"{t:g}" for t in ticks]))
     ax.yaxis.set_minor_locator(LogLocator(base=10, subs=np.arange(2, 10) * 0.1, numticks=14))
@@ -212,7 +214,7 @@ def axis_range(mk):
 
 
 # ---- figure ----------------------------------------------------------------
-FIG_W_IN = 170 / 25.4        # BMC full page width
+FIG_W_IN = 170 / 25.4        # Retained canvas width
 fig = plt.figure(figsize=(FIG_W_IN, 107 / 25.4))
 outer = gridspec.GridSpec(2, 1, figure=fig, left=.077, right=.995, top=.950,
                           bottom=.130, hspace=.38)
@@ -246,7 +248,7 @@ def percell_panel(ax, mk, colour, name):
     ax.set_ylabel("Perinuclear FITC intensity (a.u.)")
     tidy(ax)
 
-    # threshold key inside the graphic (BMC: keys belong in the artwork)
+    # threshold key inside the graphic, as in the retained output
     ax.legend(handles=[
         Line2D([], [], color=THR, lw=.7, ls=(0, (4, 2)),
                label=f"Control mean + 3 SD = {d['T1']:.0f}"),
@@ -349,16 +351,16 @@ with Image.open(OUTSTEM + ".tif") as _im:
                                   _rgba).convert("RGB")
     _flat.save(OUTSTEM + ".tif", compression="tiff_lzw", dpi=(400, 400))
 
-# ---- compliance and numbers audit ------------------------------------------
+# ---- output dimensions and numbers audit -----------------------------------
 w_in, h_in = fig.get_size_inches()
 print("=" * 74)
-print(f"width  {w_in * 25.4:6.1f} mm   (BMC full page 170 mm)")
-print(f"height {h_in * 25.4:6.1f} mm   (BMC ceiling  225 mm)")
+print(f"width  {w_in * 25.4:6.1f} mm")
+print(f"height {h_in * 25.4:6.1f} mm")
 for ext in (".pdf", ".tif", ".png"):
     p = OUTSTEM + ext
-    print(f"{ext:5s}  {os.path.getsize(p) / 1e6:5.2f} MB   (BMC ceiling 10 MB)")
+    print(f"{ext:5s}  {os.path.getsize(p) / 1e6:5.2f} MB")
 print("=" * 74)
-print("Numbers below must match Supplementary Methods S2 and Section 2.6.\n")
+print("Numbers below must match Supplementary Methods S2 and Section 2.5.\n")
 for mk, name in [("VIM", "Vimentin"), ("SMA", SMA)]:
     d = D[mk]
     ct, st = d["ct"].ringMean.values, d["st"].ringMean.values

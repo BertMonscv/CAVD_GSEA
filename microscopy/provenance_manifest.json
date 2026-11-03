@@ -114,13 +114,15 @@
     ]
   },
   {
-    "path": "characterization/scripts/make_FigureS6_MolMed.py",
+    "path": "characterization/scripts/make_vic_identity_figure.py",
     "source_alias": "VIC_identity_analysis_archive/make_FigureS6_MolMed.py",
     "source_sha256": "7a4f92627ad4ffd637ea6961ec0549c0414ee7ce9dd1e16804e7e76caaafe514",
-    "publication_sha256": "f12a50bdd56a57961c4c42aa9ef3c90d57b8c53052e88596b7247ece0b378718",
+    "publication_sha256": "1933484b7044ccb2c64f5347c3ade90df66e71b266216edc135d59b11fd44e05",
     "adaptations": [
       "Replaced absolute input/output strings with IDENTITY_DATA and IDENTITY_FIGURES environment variables; default folders relative to script.",
-      "Added output-folder creation. Historical output stem retained."
+      "Added output-folder creation. Historical output stem retained.",
+      "2026-11-03: renamed the publication entry point to make_vic_identity_figure.py; original source_alias and historical FigureS6_identity output stem retained.",
+      "2026-11-03: removed journal-specific documentation and console labels and corrected current method references. ASTs are identical after excluding function docstrings and normalizing four explicitly enumerated diagnostic string literals; all numeric literals, calculations and output settings are unchanged."
     ]
   }
 ]

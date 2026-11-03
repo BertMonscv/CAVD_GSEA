@@ -1,6 +1,6 @@
 # Independent BODIPY assay
 
-This directory contains retained Fiji source and a publication reproducibility companion for Supplementary Methods S6, Figure 5a–c and Table S13A. It is separate from the LC3B–BODIPY co-staining assay.
+This directory contains retained Fiji source and a publication reproducibility companion for Section 2.10, Supplementary Methods S4, Figure 5A–C and Table S9A. It is separate from the LC3B–BODIPY co-staining assay. These references use the revised manuscript numbering as of 3 November 2026. References to old Methods S6, Figure 5a–c or Table S13A inside the retained code/provenance describe the original release; file names, input labels and numerical behavior are unchanged.
 
 ## Contents
 
@@ -10,7 +10,7 @@ This directory contains retained Fiji source and a publication reproducibility c
 - `input_schema.csv`: column descriptions for the companion input.
 - `PROVENANCE.json`: source hashes and adaptations.
 
-The retained measurement macro uses the 0.1 μm² particle-area cutoff reported in Methods S6. The available records do not establish that this exact retained macro version generated every measurement in the final 1,364-cell dataset. The companion reproduces the published aggregation and statistics; it is not presented as the historical image-measurement script. An older field-level Kruskal–Wallis plotting script is excluded because the current analysis uses matched experiment means.
+The retained measurement macro uses the 0.1 μm² particle-area cutoff reported in Methods S4. The available records do not establish that this exact retained macro version generated every measurement in the final 1,364-cell dataset. The companion reproduces the published aggregation and statistics; it is not presented as the historical image-measurement script. An older field-level Kruskal–Wallis plotting script is excluded because the current analysis uses matched experiment means.
 
 ## Fiji measurement workflow
 
@@ -46,4 +46,4 @@ Outputs are `experiment_values.csv`, `group_summary.csv`, `paired_holm_compariso
 
 ## Data and license
 
-This release contains code, documentation and an input schema. Raw images, ROIs, source workbooks and measurement data are not included. The manuscript's data-availability statement governs requests for those materials. Table S13 supplies the experiment-level values. Code is provided under the repository's MIT license; documentation follows the repository's stated data/documentation license.
+This release contains code, documentation and an input schema. Raw images, ROIs, source workbooks and measurement data are not included. The manuscript's data-availability statement governs requests for those materials. Table S9 supplies the experiment-level values. Code is provided under the repository's MIT license; documentation follows the repository's stated data/documentation license.

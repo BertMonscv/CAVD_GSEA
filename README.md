@@ -4,17 +4,19 @@
 
 Transcriptomic analyses and microscopy processing code supporting *Pharmacological modulation of autophagy and lipid storage attenuates leptin-enhanced osteogenic differentiation in human aortic valve interstitial cells*.
 
-**GSEA manuscript release: v1.0.0 (7 October 2026).** The current results are in [`results/current/`](results/current/) and the current main figure is in [`figures/current/`](figures/current/). The historical analysis, plans and results remain at their original paths and commits. See the [reporting corrections](docs/REPORTING_CORRECTIONS_2026-10-07.md) before using historical NES uncertainty columns or old figure numbers.
+**GSEA manuscript release: v1.0.0 (7 October 2026).** The release results are in [`results/current/`](results/current/) and its archived Figure 1 is in [`figures/current/`](figures/current/). The historical analysis, plans and results remain at their original paths and commits. See the [reporting corrections](docs/REPORTING_CORRECTIONS_2026-10-07.md) before using historical NES uncertainty columns or old figure numbers.
+
+**Revised manuscript mapping (3 November 2026):** the archived GSEA Figure 1 is now Supplementary Figure S10. Frozen calculations, output file names and the v1.0.0 release remain unchanged. The figure builder below recreates that archived GSEA figure; it does not assemble or redraw all nine main figures of the revised manuscript. Current microscopy mappings are listed in [microscopy/README.md](microscopy/README.md).
 
 **Microscopy code added on 12 October 2026:** [measurement macros, statistical companions and execution instructions](microscopy/README.md). These files are versioned in GitHub. The Zenodo v1.0.0 DOI above continues to identify the GSEA release and does not contain the later microscopy addition.
 
-![Current Figure 1](figures/current/Figure1_preview.png)
+![Archived GSEA Figure 1; current Supplementary Figure S10](figures/current/Figure1_preview.png)
 
 ## What is included
 
 - The frozen GSEA plans, implementation, curated gene sets, annotations and archived results.
 - Current results for all 68 reported tests, with the deprecated uncertainty columns removed.
-- The 15 targeted pathway results, the 10-gene osteogenic leading-edge membership matrix, and the final Figure 1 export script.
+- The 15 targeted pathway results, the 10-gene osteogenic leading-edge membership matrix, and the archived Figure 1 export script (current Supplementary Figure S10).
 - The transcriptomic supplementary figure sources and a map from historical to current figure numbers.
 - Public GEO input retrieval, SHA-256 checks, an R environment specification, isolated analysis entry points and actual reproduction records.
 - Citation metadata, explicit licenses and GitHub-to-Zenodo release metadata.
@@ -34,7 +36,7 @@ The three GEO studies contribute 47 unique samples. The five sclerotic GSE51472 
 
 Five targeted gene sets are tested in each analysis set, with Benjamini–Hochberg adjustment within each five-test pool. The 50-Hallmark descriptive analysis is performed only in discovery. S100A9–RAGE is a separate supplementary single-set analysis in each analysis set. The full result table contains 15 targeted, 3 supplementary and 50 descriptive results.
 
-## Quick start: rebuild current tables and Figure 1
+## Quick start: rebuild release tables and the archived GSEA figure
 
 Use Python 3.10 or later and install the figure dependencies in an environment of your choice:
 
@@ -49,7 +51,7 @@ Full figure export also uses Poppler (`pdftoppm`). The builder selects Arial whe
 python3 scripts/build_current_release.py --data-only
 ```
 
-This builds the current tables from the preserved results. The final main figure reports NES point estimates and adjusted P values, without the historical bootstrap-derived intervals.
+This builds the release tables from the preserved results. The archived GSEA figure (now Supplementary Figure S10) reports NES point estimates and adjusted P values, without the historical bootstrap-derived intervals.
 
 ## Reproduce the analysis from public expression matrices
 
@@ -77,8 +79,8 @@ Details are in [`docs/validation/`](docs/validation/). Baseline KEGG version dep
 | --- | --- |
 | `pre/`, `preregistration/` | Preserved historical plans, implementation and gene-set definitions |
 | `results/` outside `current/` | Preserved historical outputs and historical figure names |
-| `results/current/` | Current manuscript tables and main-figure numerical sources |
-| `figures/current/` | Current main figure, previews and supplementary transcriptomic figures |
+| `results/current/` | Release tables and archived GSEA-figure numerical sources |
+| `figures/current/` | Archived GSEA figure (now Supplementary Figure S10), previews and transcriptomic figure outputs |
 | `scripts/` | Data retrieval, isolated R reruns and current figure generation |
 | `environment/` | Input/source checksums, package versions and restoration instructions |
 | `docs/` | Corrections, figure mapping, reproduction instructions and verification records |

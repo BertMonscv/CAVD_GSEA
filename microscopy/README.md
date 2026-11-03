@@ -1,28 +1,29 @@
 # Microscopy processing code
 
-This directory contains Fiji macros and Python scripts used for VIC identity characterization, p-S6 immunofluorescence and LC3B–BODIPY co-localization in the CAVD study. It accompanies the main manuscript, Supplementary Methods S2–S4 and S6 and the microscopy summaries in Additional file 3. Code is covered by the repository's MIT license; documentation is covered by CC BY 4.0. The GSEA Zenodo v1.0.0 archive predates this addition and does not contain the microscopy code.
+This directory contains Fiji macros and Python scripts used for VIC identity characterization, p-S6 immunofluorescence and LC3B–BODIPY co-localization in the CAVD study. It accompanies the main manuscript, Supplementary Methods S2 and S4–S6 and the microscopy summaries in Additional file 3. Code is covered by the repository's MIT license; documentation is covered by CC BY 4.0. The GSEA Zenodo v1.0.0 archive predates this addition and does not contain the microscopy code.
 
 ## Scope and provenance
 
 The measurement algorithms and numerical settings are preserved from the recovered analysis files. Publication copies replace computer-specific input and output paths with folder-selection dialogs. The Python scripts already accept portable paths. `provenance_manifest.json` records the original source hash, publication-copy hash, source alias and each adaptation. No source images or participant-identifying information are included.
 
-Original filenames and figure labels inside the code predate the final manuscript. Their current correspondence is:
+Original output filenames and figure labels inside the code predate the final manuscript. The mappings below refer to the revised manuscript as of 3 November 2026; historical output names and analysis behavior remain unchanged. Assay-specific documentation distinguishes the updated mapping from historical code labels. Current correspondence is:
 
 | Code | Function | Current manuscript location |
 | --- | --- | --- |
-| `ps6/macros/PS6_scan_v2_1.ijm` | LIF metadata, dynamic range and acquisition checks | Section 2.13; Tables S4–S6 |
-| `ps6/macros/PS6_percell.ijm` | DAPI segmentation; perinuclear p-S6 measurements | Section 2.13; Methods S2; Figure 3d |
-| `ps6/macros/PS6_suppfig_overlay.ijm` | Segmentation and measurement-region overlays | Figure S6 |
-| `ps6/scripts/make_ps6_figure_v2.py` | p-S6 intensity, distributions and control-percentile summaries | Intensity endpoint in Figure 3d; additional analysis views |
-| `ps6/scripts/make_supp_figs.py` | Focus, cell-density, ring-area and field-level checks | Figures S7–S9 |
-| `colocalization/macros/COLOC_scan_v1.ijm` | Metadata and whole-field intensity histograms | Methods S3.1 and S3.3 |
-| `colocalization/macros/COLOC_A_blind_export.ijm` | Coded TIFF export | Methods S3.2 |
-| `colocalization/macros/COLOC_A2_outline.ijm` | Interactive blinded cell outlining | Methods S3.2 |
-| `colocalization/macros/COLOC_B_measure.ijm` | Per-cell area, intensity, Manders and Pearson measurements | Methods S3.3; Figure 5e–h |
-| `colocalization/macros/COLOC_C_representative.ijm` | Selected field and inset display | Figure 5d |
-| `colocalization/macros/COLOC_D_supplementary.ijm` | Staining controls and threshold-mask illustration | Figures S4–S5 |
+| `characterization/scripts/make_vic_identity_figure.py` | VIC marker positivity and descriptive distributions | Section 2.5; Methods S2; Figure S3 |
+| `ps6/macros/PS6_scan_v2_1.ijm` | LIF metadata, dynamic range and acquisition checks | Section 2.13; Tables S11–S13 |
+| `ps6/macros/PS6_percell.ijm` | DAPI segmentation; perinuclear p-S6 measurements | Section 2.13; Methods S2; Figure 3D |
+| `ps6/macros/PS6_suppfig_overlay.ijm` | Segmentation and measurement-region overlays | Figure S5 |
+| `ps6/scripts/make_ps6_figure_v2.py` | p-S6 intensity, distributions and control-percentile summaries | Intensity endpoint in Figure 3D; additional analysis views |
+| `ps6/scripts/make_supp_figs.py` | Focus, cell-density, ring-area and field-level checks | Figures S6, S8 and S11 |
+| `colocalization/macros/COLOC_scan_v1.ijm` | Metadata and whole-field intensity histograms | Methods S5 |
+| `colocalization/macros/COLOC_A_blind_export.ijm` | Coded TIFF export | Methods S5 |
+| `colocalization/macros/COLOC_A2_outline.ijm` | Interactive blinded cell outlining | Methods S5 |
+| `colocalization/macros/COLOC_B_measure.ijm` | Per-cell area, intensity, Manders and Pearson measurements | Methods S5; Figure 5E–H |
+| `colocalization/macros/COLOC_C_representative.ijm` | Selected field and inset display | Figure 5D |
+| `colocalization/macros/COLOC_D_supplementary.ijm` | Staining controls and threshold-mask illustration | Figures S4 and S13 |
 
-The plotting scripts produce historical stand-alone panels, not the complete final nine-figure layout. Their statistical summaries can be checked against the manuscript. The recovered p-S6 representative-image macro was an earlier cropped-image version and is excluded: the final Figure 3c uses whole fields. This release does not claim that this earlier macro generated the final whole-field layout. Independent BODIPY measurement and statistics are documented in [bodipy/README.md](bodipy/README.md). Co-localization experiment-level statistics are documented in [colocalization/scripts/STATISTICS_README.md](colocalization/scripts/STATISTICS_README.md). The complete final figure assembly is outside this directory's scope.
+The plotting scripts produce historical stand-alone panels, not the complete final nine-figure layout. The p-S6 output stems `FigureS10_pS6_focusQC`, `FigureS11_pS6_covariates` and `FigureS12_pS6_fielddata` correspond to current Figures S6, S8 and S11, respectively. Co-localization control outputs correspond to Figure S13, and the threshold-mask output to Figure S4. Their statistical summaries can be checked against the manuscript. The recovered p-S6 representative-image macro was an earlier cropped-image version and is excluded. Final Figure 3C uses representative source fields with an identical lower-edge crop to remove embedded annotations and with external scale bars; quantitative analysis retains the original whole fields. This release does not claim that the earlier macro generated the final display layout. Independent BODIPY measurement and statistics are documented in [bodipy/README.md](bodipy/README.md). Co-localization experiment-level statistics are documented in [colocalization/scripts/STATISTICS_README.md](colocalization/scripts/STATISTICS_README.md). The complete final figure assembly is outside this directory's scope.
 
 ## Software
 
@@ -37,10 +38,10 @@ Open each macro in Fiji's script editor and run it as ImageJ Macro language. The
 The Python script applies the documented acquisition-format restriction before calculating marker-specific thresholds from the appropriate control. It verifies identical FITC exposure within each marker. Thresholds are control mean + 3 SD and control maximum. It reports positivity descriptively for one stained/control coverslip per marker, not three independent biological replicates. Retain both complete CSV exports (including acquisition columns).
 
 ```bash
-IDENTITY_DATA=/path/to/identity-tables IDENTITY_FIGURES=/path/to/output python microscopy/characterization/scripts/make_FigureS6_MolMed.py
+IDENTITY_DATA=/path/to/identity-tables IDENTITY_FIGURES=/path/to/output python microscopy/characterization/scripts/make_vic_identity_figure.py
 ```
 
-The historical output `FigureS6_identity` corresponds to current Figure S3. Its `percell.csv` includes `marker`, `role`, `file`, `series`, `ringMean`, nuclear/ring area and spatial measurements; `perfield.csv` includes status, acquisition width, pixel size and FITC exposure. These files are separate from the identically named p-S6 tables. The retained-format counts are276 vimentin-control cells,185 vimentin-stained cells,132 alpha-SMA-control cells and1613 alpha-SMA-stained cells.
+The neutral entry-point name `make_vic_identity_figure.py` replaces the earlier publication filename. The historical output `FigureS6_identity` corresponds to current Figure S3. Its retained geometry and style are historical output settings, not a statement of current journal requirements. Original source aliases remain unchanged in the provenance manifest. The identity `percell.csv` includes `marker`, `role`, `file`, `series`, `ringMean`, nuclear/ring area and spatial measurements; `perfield.csv` includes status, acquisition width, pixel size and FITC exposure. These files are separate from the identically named p-S6 tables. The retained-format counts are 276 vimentin-control cells, 185 vimentin-stained cells, 132 alpha-SMA-control cells and 1613 alpha-SMA-stained cells.
 
 ## p-S6 workflow
 
@@ -69,10 +70,10 @@ The main p-S6 inference uses each cell's `net`, the median within each field, th
 
 1. Run `COLOC_scan_v1.ijm` for acquisition and whole-field histogram checks. The study's BODIPY and LC3B thresholds were fixed in the pilot dataset; these histograms provide a post hoc check.
 2. Run `COLOC_A_blind_export.ijm` on the LIF folder. Select a colocalization working folder. It writes coded TIFFs into `blind/`, initializes `roi/` and saves `KEY_DO_NOT_OPEN.csv`. Seed 20260803 and fixed display ranges are preserved. Keep the key separate from the person outlining cells until outlining is complete.
-3. Run `COLOC_A2_outline.ijm`, choosing that same working folder. Outline each eligible cell and press `T` to add it to ROI Manager. The interactive macro saves each field's ROIs. Follow the eligibility criteria in Methods S3.2; the macro does not decide biological eligibility itself.
+3. Run `COLOC_A2_outline.ijm`, choosing that same working folder. Outline each eligible cell and press `T` to add it to ROI Manager. The interactive macro saves each field's ROIs. Follow the eligibility criteria in Methods S5; the macro does not decide biological eligibility itself.
 4. Run `COLOC_B_measure.ijm` in the same working folder. It reads `blind/Fxxx.tif` and `roi/Fxxx.zip` (or a single ROI), then writes `percell_blind.csv`.
-5. Decode group, source file and series identifiers with the retained key after outlining. The three experiment identifiers are assigned from the experimental records, not inferred from fluorescent intensities. Group comparisons use the three matched experiment means, as specified in Methods S3.4 and Table S13.
-6. `COLOC_C_representative.ijm` and `COLOC_D_supplementary.ijm` read the same blind images/ROIs and use recorded panel selections. They do not rerun the field-ranking selection algorithm. Historical `Figure5F` output labels refer to the co-localization panels now in Figure 5d. Selected fields in the default D4 set are F053, F017 and F004. Recreating the source identifiers requires the original blinded exports and key; relabelled or newly enumerated input directories should not be assumed to reproduce the same codes.
+5. Decode group, source file and series identifiers with the retained key after outlining. The three experiment identifiers are assigned from the experimental records, not inferred from fluorescent intensities. Group comparisons use the three matched experiment means, as specified in Methods S5 and Table S9.
+6. `COLOC_C_representative.ijm` and `COLOC_D_supplementary.ijm` read the same blind images/ROIs and use recorded panel selections. They do not rerun the field-ranking selection algorithm. Historical `Figure5F` output labels refer to the co-localization panels now in Figure 5D. Selected fields in the default D4 set are F053, F017 and F004. Recreating the source identifiers requires the original blinded exports and key; relabelled or newly enumerated input directories should not be assumed to reproduce the same codes.
 
 ### Co-localization outputs and interpretation
 
@@ -94,7 +95,7 @@ M2 is intensity-weighted; its numerator does not additionally require LC3B inten
 
 ## Data access and verification limits
 
-Microscopy images, ROIs, coded-image keys and cell/field tables are available from the corresponding authors on reasonable request, as stated in the manuscript. Experiment-level values and summaries for the main co-localization endpoints are in Additional file 3, Table S13; p-S6 summaries are in Tables S4–S6. This code release does not change their access terms.
+Microscopy images, ROIs, coded-image keys and cell/field tables are available from the corresponding authors on reasonable request, as stated in the manuscript. Experiment-level values and summaries for the main co-localization endpoints are in Additional file 3, Table S9; p-S6 acquisition and analysis summaries are in Tables S11–S13. This code release does not change their access terms.
 
 The three recovered Python plotting scripts were syntax-checked and successfully executed with retained local tables during release preparation. Independent R calculations also reproduced the reported p-S6 and VIC identity summaries. Package versions and execution limits are recorded in VALIDATION.md. The macros were inspected against the reported parameters; a complete new image-to-table run was not performed for this release. Retain the original image identifiers, calibration and acquisition bit depth when reproducing the analyses.
 
