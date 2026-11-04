@@ -115,14 +115,16 @@
   },
   {
     "path": "characterization/scripts/make_vic_identity_figure.py",
-    "source_alias": "VIC_identity_analysis_archive/make_FigureS6_MolMed.py",
+    "source_alias": "VIC_identity_analysis_archive/identity_figure_source",
+    "source_alias_note": "Neutral public identifier for the archived source, not its original filename or the publication entry point. The archived source is identified by source_sha256; the earlier filename remains recorded in Git history at commit 8629778.",
     "source_sha256": "7a4f92627ad4ffd637ea6961ec0549c0414ee7ce9dd1e16804e7e76caaafe514",
     "publication_sha256": "1933484b7044ccb2c64f5347c3ade90df66e71b266216edc135d59b11fd44e05",
     "adaptations": [
       "Replaced absolute input/output strings with IDENTITY_DATA and IDENTITY_FIGURES environment variables; default folders relative to script.",
       "Added output-folder creation. Historical output stem retained.",
       "2026-11-03: renamed the publication entry point to make_vic_identity_figure.py; original source_alias and historical FigureS6_identity output stem retained.",
-      "2026-11-03: removed journal-specific documentation and console labels and corrected current method references. ASTs are identical after excluding function docstrings and normalizing four explicitly enumerated diagnostic string literals; all numeric literals, calculations and output settings are unchanged."
+      "2026-11-03: removed journal-specific documentation and console labels and corrected current method references. ASTs are identical after excluding function docstrings and normalizing four explicitly enumerated diagnostic string literals; all numeric literals, calculations and output settings are unchanged.",
+      "2026-11-03: replaced the historical filename in source_alias with a neutral public archive identifier. Both source_sha256 and publication_sha256 are unchanged; the archived source and publication script were not modified."
     ]
   }
 ]
